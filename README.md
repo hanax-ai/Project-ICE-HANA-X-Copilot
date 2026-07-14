@@ -84,6 +84,12 @@ Approved status values are `DRAFT`, `IN-REVIEW`, `APPROVED`, `PUBLISHED`, `SUPER
 
 The initial register includes the HANA-X Agentic OS white paper, Query Response, HANA-X Copilot Business Case, Letter from the Founder, and Procurement Agent Specification. See `01_Registers/ICE_Source_Register.csv`.
 
+## Root metadata and governance files
+
+- `CONTRIBUTING.md` defines contribution and collaboration expectations.
+- `PROJECT_MANIFEST.yaml` provides repository-level project metadata and structure intent.
+- `REPOSITORY_INVENTORY.txt` records the generated file and path inventory snapshot.
+
 ## Current status
 
-Repository governance and publication scaffolding initialized on 2026-07-14. The next governed artifact is the **HANA-X Copilot Master Authoring Guide**.
+Repository governance and publication scaffolding initialized on 2026-07-13. The next governed artifact is the **HANA-X Copilot Master Authoring Guide**.

@@ -2,7 +2,16 @@
 
 ## Branching
 
-Create focused branches using `agent/<description>`, `author/<artifact-id>-<description>`, or `review/<artifact-id>-<review-type>`. Do not author directly on `main`.
+`main` is the production truth branch.
+
+Use short-lived working branches and merge by pull request:
+
+- `agent/<description>`
+- `author/<artifact-id>-<description>`
+- `review/<artifact-id>-<review-type>`
+
+Do not author directly on `main`.
+Do not keep additional long-lived branches unless there is an active need for parallel release lines.
 
 ## Pull requests
 

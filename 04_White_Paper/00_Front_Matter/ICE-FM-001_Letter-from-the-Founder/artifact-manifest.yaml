@@ -29,3 +29,6 @@ review_status:
   technical: claims governed in ICE_Claims_Register.csv
   claims_and_legal: outstanding evidence items remain recorded in Claims Register
 publication_authorization: Founder-directed publication on 2026-07-14
+
+risk_acceptance_record: "09_Reviews_and_Approvals/09_Signed_Approvals/ICE-FM-001_v1.0_Publication-Risk-Acceptance.md"
+current_release_package: "12_Releases/Founder-Letter/v1.0.1"

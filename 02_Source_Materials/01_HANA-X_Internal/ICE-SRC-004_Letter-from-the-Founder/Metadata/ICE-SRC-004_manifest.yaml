@@ -3,8 +3,9 @@ title: "Letter from the Founder"
 author: "Jarvis Richardson, Founder & Chief AI Officer, HANA-X AI"
 source_type: "Founder vision"
 authority_tier: Primary
-status: Accepted - author final
+status: Accepted
 version: "1.0"
+source_stage: author-final
 acquisition_date: 2026-07-14
 originals_immutable: true
 current_original:
@@ -14,5 +15,6 @@ current_original:
 previous_originals:
   - path: "02_Source_Materials/01_HANA-X_Internal/ICE-SRC-004_Letter-from-the-Founder/Originals/ICE-SRC-004_Letter-from-the-Founder_Received-2026-07.docx"
     sha256: "6dfe15415538a8d6a85d04b0cbdb339235236cf894391aecd04f9ab8026e7ccc"
-    status: superseded by author-final source; retained as immutable intake evidence
+    status: Superseded
+    notes: retained as immutable intake evidence
 publication_artifact: ICE-FM-001

@@ -1,12 +1,7 @@
-# 09 Signed Approvals
+# Signed Approvals and Risk Acceptance
 
-**Status:** Scaffolded  
-**Program:** Project ICE — HANA-X Copilot
+This directory stores signed approvals, formally recorded publication exceptions, and risk-acceptance records.
 
-## Purpose
+Current record:
 
-Final approval records and signatures.
-
-## Repository rule
-
-Store only governed artifacts appropriate to this area. Original evidence must remain immutable; drafts, approved artifacts, and published outputs must remain clearly separated.
+- `ICE-FM-001_v1.0_Publication-Risk-Acceptance.md` - active exception for deferred claims evidence and specialist reviews.

@@ -1,0 +1,3 @@
+a3784157c43405d30b64fbc5634a92272ecea8807b8f9cd2f802d535ce156745  Authoring/HXC-ICE-FM-001_Letter-from-the-Founder_v1.0_APPROVED_2026-07-14.docx
+430472bdd527f8658279fc776bc9087fd65007a8893baaec8dcfd0818e0f7a98  Authoring/HXC-ICE-FM-001_Letter-from-the-Founder_v1.0_APPROVED_2026-07-14.md
+04d2b22b54b0c7c3ba7a4817ad53145943980fae4d6a4a8e5bc26a18515d34da  Publications/HXC-ICE-FM-001_Letter-from-the-Founder_v1.0_PUBLISHED_WEB_2026-07-14.pdf

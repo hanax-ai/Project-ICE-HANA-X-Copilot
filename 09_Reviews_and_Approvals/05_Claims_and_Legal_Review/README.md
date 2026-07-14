@@ -1,12 +1,7 @@
-# 05 Claims and Legal Review
+# Claims and Legal Review
 
-**Status:** Scaffolded  
-**Program:** Project ICE — HANA-X Copilot
+This directory stores claims evidence plans, legal review records, approved wording, and deferred-evidence tracking.
 
-## Purpose
+Current record:
 
-Competitive, licensing, cost, market, trademark, and externally verifiable claims.
-
-## Repository rule
-
-Store only governed artifacts appropriate to this area. Original evidence must remain immutable; drafts, approved artifacts, and published outputs must remain clearly separated.
+- `ICE-FM-001_v1.0_Deferred-Claims-Evidence.md` - evidence plan for ICE-CLM-001 through ICE-CLM-004.

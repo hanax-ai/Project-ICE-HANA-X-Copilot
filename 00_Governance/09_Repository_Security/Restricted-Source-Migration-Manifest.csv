@@ -1,0 +1,4 @@
+Source ID,Current classification,Restricted repository paths,Public mirror treatment
+ICE-SRC-002,Internal restricted,02_Source_Materials/01_HANA-X_Internal/ICE-SRC-002_Query-Response;03_Knowledge_Base/01_Normalized_Sources/ICE-SRC-002.md;03_Knowledge_Base/02_Source_Summaries/ICE-SRC-002_summary.md,Exclude content; retain sanitized citation metadata only if approved
+ICE-SRC-003,Internal restricted,02_Source_Materials/01_HANA-X_Internal/ICE-SRC-003_Copilot-Business-Case;03_Knowledge_Base/01_Normalized_Sources/ICE-SRC-003.md;03_Knowledge_Base/02_Source_Summaries/ICE-SRC-003_summary.md,Exclude content; publish only approved derivative business-case material
+ICE-SRC-005,Internal restricted,02_Source_Materials/01_HANA-X_Internal/ICE-SRC-005_Procurement-Agent-Specification;03_Knowledge_Base/01_Normalized_Sources/ICE-SRC-005.md;03_Knowledge_Base/02_Source_Summaries/ICE-SRC-005_summary.md,Exclude content; publish only approved derivative technical material

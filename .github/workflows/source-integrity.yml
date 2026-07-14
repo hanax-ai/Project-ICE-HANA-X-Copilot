@@ -1,0 +1,32 @@
+name: Source integrity
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  source-integrity:
+    name: Source integrity
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -r .github/governance/requirements.txt
+      - name: Validate source evidence
+        env:
+          GITHUB_REPOSITORY_PRIVATE: ${{ github.event.repository.private }}
+        run: |
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            git fetch origin "${{ github.base_ref }}"
+            python .github/governance/validate_source_integrity.py --base-ref "origin/${{ github.base_ref }}"
+          else
+            python .github/governance/validate_source_integrity.py
+          fi

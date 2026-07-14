@@ -32,6 +32,16 @@
     "sha256": {
       "type": "string",
       "pattern": "^[a-f0-9]{64}$"
+    },
+    "source_stage": {
+      "type": "string",
+      "enum": [
+        "received",
+        "working",
+        "author-final",
+        "verified",
+        "superseded"
+      ]
     }
   },
   "additionalProperties": true

@@ -27,6 +27,12 @@ publication:
     - enterprise architects
     - implementation teams
   flagship_use_case: procurement
+  published_front_matter:
+    - artifact_id: ICE-FM-001
+      title: Letter from the Founder
+      version: "1.0"
+      publication_date: 2026-07-14
+      path: 11_Deliverables/01_Front_Matter/Web/HXC-ICE-FM-001_Letter-from-the-Founder_v1.0_PUBLISHED_WEB_2026-07-14.pdf
   intended_outputs:
     - flagship technical white paper
     - product vision

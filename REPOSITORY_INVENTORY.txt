@@ -56,10 +56,12 @@
 02_Source_Materials/01_HANA-X_Internal/ICE-SRC-003_Copilot-Business-Case/Originals/ICE-SRC-003_Copilot-Business-Case_Received-2026-07.docx
 02_Source_Materials/01_HANA-X_Internal/ICE-SRC-003_Copilot-Business-Case/Originals/README.md
 02_Source_Materials/01_HANA-X_Internal/ICE-SRC-003_Copilot-Business-Case/README.md
+02_Source_Materials/01_HANA-X_Internal/ICE-SRC-004_Letter-from-the-Founder/Extracted/ICE-SRC-004_v1.0_extracted-text.md
 02_Source_Materials/01_HANA-X_Internal/ICE-SRC-004_Letter-from-the-Founder/Extracted/README.md
 02_Source_Materials/01_HANA-X_Internal/ICE-SRC-004_Letter-from-the-Founder/Metadata/ICE-SRC-004_manifest.yaml
 02_Source_Materials/01_HANA-X_Internal/ICE-SRC-004_Letter-from-the-Founder/Metadata/README.md
 02_Source_Materials/01_HANA-X_Internal/ICE-SRC-004_Letter-from-the-Founder/Originals/ICE-SRC-004_Letter-from-the-Founder_Received-2026-07.docx
+02_Source_Materials/01_HANA-X_Internal/ICE-SRC-004_Letter-from-the-Founder/Originals/ICE-SRC-004_Letter-from-the-Founder_v1.0_AUTHOR-FINAL_2026-07-14.docx
 02_Source_Materials/01_HANA-X_Internal/ICE-SRC-004_Letter-from-the-Founder/Originals/README.md
 02_Source_Materials/01_HANA-X_Internal/ICE-SRC-004_Letter-from-the-Founder/README.md
 02_Source_Materials/01_HANA-X_Internal/ICE-SRC-005_Procurement-Agent-Specification/Extracted/README.md
@@ -133,6 +135,8 @@
 04_White_Paper/00_Front_Matter/ICE-FM-001_Letter-from-the-Founder/02_Drafts/HXC-ICE-FM-001_Letter-from-the-Founder_v0.1_DRAFT_2026-07-14.docx
 04_White_Paper/00_Front_Matter/ICE-FM-001_Letter-from-the-Founder/02_Drafts/README.md
 04_White_Paper/00_Front_Matter/ICE-FM-001_Letter-from-the-Founder/03_Review/README.md
+04_White_Paper/00_Front_Matter/ICE-FM-001_Letter-from-the-Founder/04_Approved/HXC-ICE-FM-001_Letter-from-the-Founder_v1.0_APPROVED_2026-07-14.docx
+04_White_Paper/00_Front_Matter/ICE-FM-001_Letter-from-the-Founder/04_Approved/HXC-ICE-FM-001_Letter-from-the-Founder_v1.0_APPROVED_2026-07-14.md
 04_White_Paper/00_Front_Matter/ICE-FM-001_Letter-from-the-Founder/04_Approved/README.md
 04_White_Paper/00_Front_Matter/ICE-FM-001_Letter-from-the-Founder/README.md
 04_White_Paper/00_Front_Matter/ICE-FM-001_Letter-from-the-Founder/artifact-manifest.yaml
@@ -173,8 +177,6 @@
 04_White_Paper/08_Master_Assembly/Review/README.md
 04_White_Paper/08_Master_Assembly/Working/README.md
 04_White_Paper/09_Publication_Build/Build_Config/README.md
-04_White_Paper/09_Publication_Build/Build_Logs/README.md
-04_White_Paper/09_Publication_Build/Generated/README.md
 04_White_Paper/09_Publication_Build/README.md
 04_White_Paper/README.md
 05_Architecture/01_Reference_Architecture/Metadata/README.md
@@ -260,6 +262,7 @@
 08_Agent_Zero/08_Test_Prompts/README.md
 08_Agent_Zero/09_Archived_Runs/README.md
 08_Agent_Zero/README.md
+09_Reviews_and_Approvals/01_Editorial_Review/ICE-FM-001_v1.0_Editorial-and-Publication-Review.md
 09_Reviews_and_Approvals/01_Editorial_Review/README.md
 09_Reviews_and_Approvals/02_Technical_Architecture_Review/README.md
 09_Reviews_and_Approvals/03_SAP_Integration_Review/README.md
@@ -289,6 +292,7 @@
 11_Deliverables/01_Front_Matter/Archive/README.md
 11_Deliverables/01_Front_Matter/Print/README.md
 11_Deliverables/01_Front_Matter/README.md
+11_Deliverables/01_Front_Matter/Web/HXC-ICE-FM-001_Letter-from-the-Founder_v1.0_PUBLISHED_WEB_2026-07-14.pdf
 11_Deliverables/01_Front_Matter/Web/README.md
 11_Deliverables/02_White_Paper/Accessible/README.md
 11_Deliverables/02_White_Paper/Archive/README.md
@@ -306,6 +310,11 @@
 11_Deliverables/10_Media_and_Press/README.md
 11_Deliverables/README.md
 12_Releases/Founder-Letter/README.md
+12_Releases/Founder-Letter/v1.0.0/Authoring/HXC-ICE-FM-001_Letter-from-the-Founder_v1.0_APPROVED_2026-07-14.docx
+12_Releases/Founder-Letter/v1.0.0/Publications/HXC-ICE-FM-001_Letter-from-the-Founder_v1.0_PUBLISHED_WEB_2026-07-14.pdf
+12_Releases/Founder-Letter/v1.0.0/Release_Manifest.yaml
+12_Releases/Founder-Letter/v1.0.0/Release_Notes.md
+12_Releases/Founder-Letter/v1.0.0/SHA256SUMS.txt
 12_Releases/HXC-ICE-White-Paper/README.md
 12_Releases/README.md
 12_Releases/RELEASE_TEMPLATE.md
@@ -315,11 +324,7 @@
 90_Archive/Rejected/README.md
 90_Archive/Superseded/README.md
 90_Archive/Withdrawn/README.md
-99_Workspace/Experiments/.gitkeep
 99_Workspace/README.md
-99_Workspace/Scratch/.gitkeep
-99_Workspace/Temporary_Exports/.gitkeep
-99_Workspace/To_Be_Classified/.gitkeep
 CONTRIBUTING.md
 PROJECT_MANIFEST.yaml
 README.md

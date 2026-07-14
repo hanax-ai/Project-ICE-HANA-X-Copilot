@@ -1,12 +1,7 @@
-# Web
+# Web front-matter deliverables
 
-**Status:** Scaffolded  
-**Program:** Project ICE — HANA-X Copilot
+## Published artifact
 
-## Purpose
+- `HXC-ICE-FM-001_Letter-from-the-Founder_v1.0_PUBLISHED_WEB_2026-07-14.pdf`
 
-Optimized PDF with active links, bookmarks, and metadata.
-
-## Repository rule
-
-Store only governed artifacts appropriate to this area. Original evidence must remain immutable; drafts, approved artifacts, and published outputs must remain clearly separated.
+The PDF is a two-page, tagged, web-optimized publication artifact derived from `ICE-SRC-004` and governed as `ICE-FM-001`.

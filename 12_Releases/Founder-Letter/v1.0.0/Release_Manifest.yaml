@@ -1,0 +1,11 @@
+release_id: HXC-ICE-Founder-Letter-v1.0.0
+artifact_id: ICE-FM-001
+version: "1.0.0"
+release_date: 2026-07-14
+status: PUBLISHED
+source_id: ICE-SRC-004
+files:
+  - path: Publications/HXC-ICE-FM-001_Letter-from-the-Founder_v1.0_PUBLISHED_WEB_2026-07-14.pdf
+    sha256: "04d2b22b54b0c7c3ba7a4817ad53145943980fae4d6a4a8e5bc26a18515d34da"
+  - path: Authoring/HXC-ICE-FM-001_Letter-from-the-Founder_v1.0_APPROVED_2026-07-14.docx
+    sha256: "a3784157c43405d30b64fbc5634a92272ecea8807b8f9cd2f802d535ce156745"

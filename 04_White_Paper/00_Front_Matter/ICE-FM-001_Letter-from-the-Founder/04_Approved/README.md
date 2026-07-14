@@ -1,12 +1,10 @@
-# 04 Approved
+# Approved - ICE-FM-001
 
-**Status:** Scaffolded  
-**Program:** Project ICE — HANA-X Copilot
+This directory contains the approved canonical text and editable DOCX for `ICE-FM-001` v1.0.
 
-## Purpose
+| File | Purpose |
+|---|---|
+| `HXC-ICE-FM-001_Letter-from-the-Founder_v1.0_APPROVED_2026-07-14.md` | Canonical publication text |
+| `HXC-ICE-FM-001_Letter-from-the-Founder_v1.0_APPROVED_2026-07-14.docx` | Formatted editable publication artifact |
 
-04 Approved artifacts for Letter from the Founder.
-
-## Repository rule
-
-Store only governed artifacts appropriate to this area. Original evidence must remain immutable; drafts, approved artifacts, and published outputs must remain clearly separated.
+The distributed PDF is stored under `11_Deliverables/01_Front_Matter/Web/`.

@@ -1,12 +1,7 @@
-# Founder Letter Releases
+# Founder Letter releases
 
-**Status:** Scaffolded  
-**Program:** Project ICE — HANA-X Copilot
+Immutable release snapshots for publication artifact `ICE-FM-001`.
 
-## Purpose
-
-Versioned Founder Letter release directories.
-
-## Repository rule
-
-Store only governed artifacts appropriate to this area. Original evidence must remain immutable; drafts, approved artifacts, and published outputs must remain clearly separated.
+| Release | Date | Status |
+|---|---|---|
+| `v1.0.0` | 2026-07-14 | Published |

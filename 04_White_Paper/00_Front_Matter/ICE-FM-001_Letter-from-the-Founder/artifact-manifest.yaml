@@ -1,18 +1,31 @@
 artifact_id: ICE-FM-001
 title: Letter from the Founder
-status: DRAFT
-version: 0.1
+status: PUBLISHED
+version: "1.0"
 owner: Jarvis Richardson
+publication_date: 2026-07-14
 source_ids:
   - ICE-SRC-004
+source_version: "1.0"
+source_sha256: "0a2d86d1cb5e905349ab94ac9321edb69e6b24fc354118b0ee55dfcb0e9f5514"
 claim_ids:
   - ICE-CLM-001
   - ICE-CLM-002
   - ICE-CLM-003
   - ICE-CLM-004
-required_reviews:
-  - editorial
-  - technical
-  - SAP integration
-  - claims and legal
-  - executive
+publication_paths:
+  approved_markdown: "04_White_Paper/00_Front_Matter/ICE-FM-001_Letter-from-the-Founder/04_Approved/HXC-ICE-FM-001_Letter-from-the-Founder_v1.0_APPROVED_2026-07-14.md"
+  approved_docx: "04_White_Paper/00_Front_Matter/ICE-FM-001_Letter-from-the-Founder/04_Approved/HXC-ICE-FM-001_Letter-from-the-Founder_v1.0_APPROVED_2026-07-14.docx"
+  published_pdf: "11_Deliverables/01_Front_Matter/Web/HXC-ICE-FM-001_Letter-from-the-Founder_v1.0_PUBLISHED_WEB_2026-07-14.pdf"
+sha256:
+  approved_docx: "a3784157c43405d30b64fbc5634a92272ecea8807b8f9cd2f802d535ce156745"
+  published_pdf: "04d2b22b54b0c7c3ba7a4817ad53145943980fae4d6a4a8e5bc26a18515d34da"
+review_status:
+  editorial: approved
+  visual_qa: passed - two pages inspected
+  docx_accessibility: passed - zero findings
+  pdf_tagging: tagged PDF confirmed
+  executive: approved by author submission and publication request
+  technical: claims governed in ICE_Claims_Register.csv
+  claims_and_legal: outstanding evidence items remain recorded in Claims Register
+publication_authorization: Founder-directed publication on 2026-07-14

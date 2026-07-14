@@ -92,4 +92,4 @@ The initial register includes the HANA-X Agentic OS white paper, Query Response,
 
 ## Current status
 
-Repository governance and publication scaffolding initialized on 2026-07-13. The next governed artifact is the **HANA-X Copilot Master Authoring Guide**.
+Repository governance and publication scaffolding initialized on 2026-07-13. `ICE-FM-001` v1.0, **Letter from the Founder**, was published on 2026-07-14. The next governed artifact is the **HANA-X Copilot Master Authoring Guide**.

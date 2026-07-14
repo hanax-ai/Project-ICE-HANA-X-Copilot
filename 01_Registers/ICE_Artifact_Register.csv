@@ -1,6 +1,6 @@
 Artifact ID,Title,Type,Version,Status,Owner,Repository path,Derived from,Created,Notes
 ICE-GOV-001,Project ICE Charter,Governance,1.0,APPROVED,HANA-X AI,00_Governance/01_Project_Charter/ICE-GOV-001_Project-Charter.md,ICE-SRC-002; ICE-SRC-004,2026-07-14,Project mission and scope
 ICE-GOV-002,HANA-X Copilot Master Authoring Guide,Governance,0.1,DRAFT,Project ICE Editorial Team,00_Governance/02_Master_Authoring_Guide/ICE-GOV-002_Master-Authoring-Guide.md,ICE-SRC-001..005,2026-07-14,Next governed artifact
-ICE-FM-001,Letter from the Founder,Front matter,0.1,DRAFT,Jarvis Richardson,04_White_Paper/00_Front_Matter/ICE-FM-001_Letter-from-the-Founder,ICE-SRC-004,2026-07-14,Copyediting and claims validation pending
+ICE-FM-001,Letter from the Founder,Front matter,1.0,PUBLISHED,Jarvis Richardson,11_Deliverables/01_Front_Matter/Web/HXC-ICE-FM-001_Letter-from-the-Founder_v1.0_PUBLISHED_WEB_2026-07-14.pdf,ICE-SRC-004,2026-07-14,Copyedited and formatted publication artifact derived from ICE-SRC-004 v1.0; approved DOCX and canonical Markdown retained under 04_White_Paper.
 ICE-WP-001,HANA-X Copilot flagship technical publication,White paper,0.1,PLANNED,HANA-X AI,04_White_Paper,ICE-SRC-001..005,2026-07-14,Target 60-80 pages
 ICE-RTM-001,Requirements Traceability Matrix,Requirements,0.1,SCAFFOLDED,Product Architecture,01_Registers/ICE_Requirements_Traceability_Matrix.csv,ICE-SRC-003; ICE-SRC-005,2026-07-14,Will map sources through tests

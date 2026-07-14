@@ -1,0 +1,13 @@
+job_id: ICE-JOB-NNN
+artifact_id: ICE-CH-NN
+status: planned
+model_provider: Anthropic
+model: Claude
+system_instruction_version: null
+approved_source_ids: []
+claim_ids: []
+requirement_ids: []
+inputs_sha256: {}
+started_at: null
+completed_at: null
+review_status: pending

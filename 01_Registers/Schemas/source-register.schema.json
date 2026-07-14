@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Project ICE Source Register Record",
+  "type": "object",
+  "required": [
+    "source_id",
+    "title",
+    "status",
+    "repository_path"
+  ],
+  "properties": {
+    "source_id": {
+      "type": "string",
+      "pattern": "^ICE-SRC-[0-9]{3}$"
+    },
+    "title": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "Proposed",
+        "Accepted",
+        "Verified",
+        "Superseded",
+        "Withdrawn"
+      ]
+    },
+    "repository_path": {
+      "type": "string"
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    }
+  },
+  "additionalProperties": true
+}

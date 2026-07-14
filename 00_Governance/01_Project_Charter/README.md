@@ -1,0 +1,12 @@
+# Project Charter
+
+**Status:** Scaffolded  
+**Program:** Project ICE — HANA-X Copilot
+
+## Purpose
+
+The approved mission, scope, audience, principles, deliverables, roles, and success criteria for Project ICE.
+
+## Repository rule
+
+Store only governed artifacts appropriate to this area. Original evidence must remain immutable; drafts, approved artifacts, and published outputs must remain clearly separated.

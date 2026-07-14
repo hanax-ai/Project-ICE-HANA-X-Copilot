@@ -1,0 +1,4 @@
+Trace ID,Source ID,Source statement,Requirement ID,Requirement,Architecture component,Acceptance criterion,Test case,Status
+ICE-TRC-001,ICE-SRC-005,Natural-language requests must be translated into SAP tool calls,ICE-REQ-001,Natural-language intent processing,ICE-ARC-AGENT-001,User intent produces an auditable execution plan,ICE-TST-001,Proposed
+ICE-TRC-002,ICE-SRC-003,High-value transactions require human approval,ICE-SEC-001,Human-in-the-loop approval control,ICE-ARC-GOV-001,Transaction remains pending until authorized approval,ICE-TST-SEC-001,Proposed
+ICE-TRC-003,ICE-SRC-005,Only approved OData APIs may be executed,ICE-SAP-001,Approved SAP endpoint allowlist,ICE-ARC-SAP-001,Unregistered endpoint calls are blocked and logged,ICE-TST-SAP-001,Proposed

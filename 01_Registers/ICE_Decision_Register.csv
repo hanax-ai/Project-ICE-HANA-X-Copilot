@@ -1,0 +1,4 @@
+Decision ID,Title,Status,Date,Owner,Path,Supersedes
+ADR-001,Position HANA-X Copilot as the Enterprise Intent Layer,Accepted,2026-07-14,HANA-X AI,00_Governance/05_Decision_Records/ADR-001_Enterprise-Intent-Layer.md,
+ADR-002,Introduce Intent-Centric Enterprise Computing,Accepted,2026-07-14,HANA-X AI,00_Governance/05_Decision_Records/ADR-002_Intent-Centric-Enterprise-Computing.md,
+ADR-003,Use released SAP interfaces to preserve Clean Core,Accepted,2026-07-14,HANA-X AI,00_Governance/05_Decision_Records/ADR-003_SAP-Clean-Core-Integration.md,

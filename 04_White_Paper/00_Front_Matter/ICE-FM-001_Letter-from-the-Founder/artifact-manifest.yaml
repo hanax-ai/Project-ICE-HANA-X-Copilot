@@ -1,0 +1,18 @@
+artifact_id: ICE-FM-001
+title: Letter from the Founder
+status: DRAFT
+version: 0.1
+owner: Jarvis Richardson
+source_ids:
+  - ICE-SRC-004
+claim_ids:
+  - ICE-CLM-001
+  - ICE-CLM-002
+  - ICE-CLM-003
+  - ICE-CLM-004
+required_reviews:
+  - editorial
+  - technical
+  - SAP integration
+  - claims and legal
+  - executive

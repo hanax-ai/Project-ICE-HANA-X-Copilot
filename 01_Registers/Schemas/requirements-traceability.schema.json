@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Project ICE Requirements Traceability Record",
+  "type": "object",
+  "required": [
+    "trace_id",
+    "source_id",
+    "requirement_id",
+    "requirement"
+  ],
+  "properties": {
+    "trace_id": {
+      "type": "string"
+    },
+    "source_id": {
+      "type": "string"
+    },
+    "requirement_id": {
+      "type": "string"
+    },
+    "requirement": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

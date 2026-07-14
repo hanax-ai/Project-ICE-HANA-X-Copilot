@@ -1,0 +1,46 @@
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary and generated working files
+*.tmp
+*.temp
+*.bak
+*.autosave
+~$*.docx
+~$*.xlsx
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Agent and build transient output
+08_Agent_Zero/06_Run_Logs/*.log
+04_White_Paper/09_Publication_Build/Generated/*
+04_White_Paper/09_Publication_Build/Build_Logs/*
+
+# Workspace is non-authoritative; retain only control files
+99_Workspace/**
+!99_Workspace/README.md
+!99_Workspace/**/.gitkeep
+
+# Python and JavaScript tooling that may be introduced later
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+.next/
+dist/
+build/

@@ -1,0 +1,10 @@
+{
+  "job_id": "ICE-JOB-001",
+  "artifact_id": "ICE-CH-01",
+  "status": "planned",
+  "model_provider": "Anthropic",
+  "model": "Claude",
+  "approved_source_ids": [],
+  "input_hashes": {},
+  "review_status": "pending"
+}

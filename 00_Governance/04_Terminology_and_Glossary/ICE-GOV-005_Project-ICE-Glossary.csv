@@ -1,0 +1,11 @@
+Term,Acronym,Definition,Status,Owner
+Intent-Centric Enterprise Computing,ICE,"An enterprise interaction paradigm in which users express business intent and governed intelligent systems plan, orchestrate, and execute work across enterprise systems.",Approved,HANA-X AI
+Enterprise Intent Layer,,"The layer that interprets intent, resolves context, applies policy, plans work, and coordinates authorized enterprise execution.",Approved,HANA-X AI
+System of Intent,,"The product role fulfilled by HANA-X Copilot between users and enterprise systems of record.",Approved,HANA-X AI
+System of Record,,"The authoritative enterprise system retaining trusted transactional and master data.",Approved,Industry
+HANA-X Agentic OS,,"The HANA-X runtime foundation for orchestration, tools, memory, governance, observability, and model routing.",Approved,HANA-X AI
+HANA-X Copilot,,"The enterprise intent layer and product experience for natural-language interaction and governed execution with SAP S/4HANA.",Approved,HANA-X AI
+Clean Core,,"An SAP architecture strategy that minimizes modifications to the ERP core and uses released extension and integration mechanisms.",Working,SAP
+Human in the loop,HITL,"A control model in which designated people review, approve, intervene in, or override consequential agent actions.",Approved,Industry
+Model Context Protocol,MCP,"A protocol for connecting AI applications to tools and contextual data through standardized interfaces.",Working,External standard
+Agent User Interaction Protocol,AG-UI,"An event-based protocol for connecting agent backends and interactive frontends.",Working,External standard

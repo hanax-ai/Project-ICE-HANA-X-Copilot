@@ -1,0 +1,4 @@
+Record ID,Type,Title,Description,Probability,Impact,Owner,Mitigation,Status
+ICE-RSK-001,Risk,Unsubstantiated first-to-market claim,The working title includes a high-risk competitive claim requiring evidence and legal review.,Medium,High,Product Marketing,"Define category, conduct dated competitive analysis, obtain legal approval.",Open
+ICE-RSK-002,Risk,SAP interface variation by edition and release,Available endpoints and authentication patterns differ across SAP S/4HANA editions and releases.,High,High,SAP Architecture,"Document supported editions, release matrices, and endpoint discovery procedures.",Open
+ICE-RSK-003,Risk,Vision and implemented capability may be conflated,Forward-looking architecture may be interpreted as currently implemented capability.,Medium,High,Editorial Team,"Label established, implemented, target-state, and future concepts explicitly.",Open

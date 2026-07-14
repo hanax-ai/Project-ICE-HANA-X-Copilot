@@ -1,0 +1,6 @@
+Figure ID,Title,Type,Status,Chapter,Owner,Editable source,Rendered output,Alt text,Notes
+ICE-FIG-001,Enterprise Intent Layer reference architecture,Reference architecture,Planned,Part II / Part III,Architecture Team,,,,"Show System of Intent, System of Execution, System of Record"
+ICE-FIG-002,HANA-X Agentic OS to Copilot to SAP S/4HANA,Platform relationship,Planned,Part II,Architecture Team,,,,Core three-layer relationship
+ICE-FIG-003,SAP Clean Core integration model,SAP integration,Planned,Part III,SAP Architecture,,,,Released APIs and approved interfaces
+ICE-FIG-004,Intent-to-execution agent lifecycle,Agent workflow,Planned,Part III,AI Architecture,,,,"Intent, context, planning, policy, tools, approval, audit"
+ICE-FIG-005,Procurement Copilot workflow,Business process,Planned,Part IV,Product Team,,,,250-laptop use case with human approval

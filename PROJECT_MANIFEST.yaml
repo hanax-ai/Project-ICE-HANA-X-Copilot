@@ -23,10 +23,6 @@ repository:
     restricted_sources_allowed_when_public: false
     preferred_canonical_visibility: private
     public_distribution: approved deliverables or sanitized mirror
-  visibility_policy:
-    restricted_sources_allowed_when_public: false
-    preferred_canonical_visibility: private
-    public_distribution: approved deliverables or sanitized mirror
 
 publication:
   target_length_pages: 60-80
@@ -44,7 +40,6 @@ publication:
       version: "1.0"
       publication_date: 2026-07-14
       path: 11_Deliverables/01_Front_Matter/Web/HXC-ICE-FM-001_Letter-from-the-Founder_v1.0_PUBLISHED_WEB_2026-07-14.pdf
-      current_release_package: 12_Releases/Founder-Letter/v1.0.1
       current_release_package: 12_Releases/Founder-Letter/v1.0.1
   intended_outputs:
     - flagship technical white paper
@@ -78,7 +73,6 @@ controls:
     - claims and legal review
     - security review
     - executive approval
-
 
 governance_automation:
   source_integrity_workflow: .github/workflows/source-integrity.yml

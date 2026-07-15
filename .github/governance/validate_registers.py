@@ -67,13 +67,19 @@ def validate_project_manifest(root, errors):
         if key not in data:
             errors.append(f"PROJECT_MANIFEST.yaml missing top-level key: {key}")
 
-    repository = data.get("repository", {}) or {}
+    repository = data.get("repository")
+    if not isinstance(repository, dict):
+        errors.append("PROJECT_MANIFEST.yaml repository must be a mapping")
+        return
+
     prefixes = repository.get("working_branch_prefixes")
     if prefixes != ["agent/", "author/", "review/"]:
         errors.append("PROJECT_MANIFEST.yaml working_branch_prefixes must be agent/, author/, review/")
 
-    visibility = repository.get("visibility_policy", {}) or {}
-    if visibility.get("restricted_sources_allowed_when_public") is not False:
+    visibility = repository.get("visibility_policy")
+    if not isinstance(visibility, dict):
+        errors.append("PROJECT_MANIFEST.yaml repository.visibility_policy must be a mapping")
+    elif visibility.get("restricted_sources_allowed_when_public") is not False:
         errors.append("PROJECT_MANIFEST.yaml must prohibit restricted sources in a public repository")
 
 

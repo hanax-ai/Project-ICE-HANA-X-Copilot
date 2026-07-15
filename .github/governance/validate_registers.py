@@ -4,8 +4,35 @@ from pathlib import Path
 import re
 import sys
 
+import yaml
+
 SOURCE_STATUSES = {"Proposed", "Accepted", "Verified", "Superseded", "Withdrawn"}
 ARTIFACT_STATUSES = {"PLANNED", "SCAFFOLDED", "DRAFT", "IN-REVIEW", "APPROVED", "PUBLISHED", "SUPERSEDED", "WITHDRAWN"}
+
+
+class UniqueKeyLoader(yaml.SafeLoader):
+    """YAML loader that rejects duplicate mapping keys."""
+
+
+def construct_unique_mapping(loader, node, deep=False):
+    mapping = {}
+    for key_node, value_node in node.value:
+        key = loader.construct_object(key_node, deep=deep)
+        if key in mapping:
+            raise yaml.constructor.ConstructorError(
+                "while constructing a mapping",
+                node.start_mark,
+                f"found duplicate key: {key}",
+                key_node.start_mark,
+            )
+        mapping[key] = loader.construct_object(value_node, deep=deep)
+    return mapping
+
+
+UniqueKeyLoader.add_constructor(
+    yaml.resolver.BaseResolver.DEFAULT_MAPPING_TAG,
+    construct_unique_mapping,
+)
 
 
 def load(path):
@@ -24,9 +51,37 @@ def unique(rows, field, errors, label):
         seen.add(value)
 
 
+def validate_project_manifest(root, errors):
+    path = root / "PROJECT_MANIFEST.yaml"
+    try:
+        data = yaml.load(path.read_text(encoding="utf-8"), Loader=UniqueKeyLoader)
+    except (OSError, yaml.YAMLError) as exc:
+        errors.append(f"PROJECT_MANIFEST.yaml is invalid: {exc}")
+        return
+
+    if not isinstance(data, dict):
+        errors.append("PROJECT_MANIFEST.yaml must contain a top-level mapping")
+        return
+
+    for key in ("project", "repository", "publication", "source_register", "controls", "governance_automation"):
+        if key not in data:
+            errors.append(f"PROJECT_MANIFEST.yaml missing top-level key: {key}")
+
+    repository = data.get("repository", {}) or {}
+    prefixes = repository.get("working_branch_prefixes")
+    if prefixes != ["agent/", "author/", "review/"]:
+        errors.append("PROJECT_MANIFEST.yaml working_branch_prefixes must be agent/, author/, review/")
+
+    visibility = repository.get("visibility_policy", {}) or {}
+    if visibility.get("restricted_sources_allowed_when_public") is not False:
+        errors.append("PROJECT_MANIFEST.yaml must prohibit restricted sources in a public repository")
+
+
 def main():
     root = Path.cwd()
     errors = []
+
+    validate_project_manifest(root, errors)
 
     sources = load(root / "01_Registers/ICE_Source_Register.csv")
     unique(sources, "Source ID", errors, "Source Register")
@@ -62,7 +117,11 @@ def main():
         for error in errors:
             print(f"ERROR: {error}")
         return 1
-    print(f"Register validation passed: {len(sources)} sources, {len(artifacts)} artifacts, {len(claims)} claims, {len(decisions)} decisions.")
+    print(
+        "Register and project-manifest validation passed: "
+        f"{len(sources)} sources, {len(artifacts)} artifacts, "
+        f"{len(claims)} claims, {len(decisions)} decisions."
+    )
     return 0
 
 

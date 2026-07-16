@@ -1,0 +1,60 @@
+artifact_id: ICE-BIZ-001
+title: Business Drivers for HANA-X Copilot
+subtitle: Why It Is Needed and Why It Is Positioned to Succeed
+type: Business strategy and white-paper input
+version: '0.1'
+status: IN-REVIEW
+owner: HANA-X AI Strategy
+created: 2026-07-16
+source_ids:
+- ICE-SRC-011
+related_artifacts:
+- ICE-FM-001
+- ICE-FM-002
+- ICE-ARCH-001
+- ICE-ARCH-002
+canonical_paths:
+  markdown: 04_White_Paper/00_Front_Matter/ICE-BIZ-001_Business-Drivers-for-HANA-X-Copilot/02_Drafts/ICE-BIZ-001_Business-Drivers-for-HANA-X-Copilot_v0.1_IN-REVIEW_2026-07-16.md
+  references: 04_White_Paper/00_Front_Matter/ICE-BIZ-001_Business-Drivers-for-HANA-X-Copilot/References/ICE-BIZ-001_References.md
+  executive_summary_integration: 04_White_Paper/00_Front_Matter/ICE-BIZ-001_Business-Drivers-for-HANA-X-Copilot/Integration/ICE-BIZ-001_Executive-Summary-Integration-Plan.md
+  intake_review: 04_White_Paper/00_Front_Matter/ICE-BIZ-001_Business-Drivers-for-HANA-X-Copilot/03_Review/ICE-BIZ-001_Intake-and-Harmonization-Review.md
+  binary_handoff: 04_White_Paper/00_Front_Matter/ICE-BIZ-001_Business-Drivers-for-HANA-X-Copilot/02_Drafts/BINARY-HANDOFF.md
+sha256:
+  markdown: c5481fdccb7b555e1d17814d053aba7f3a5513520a65055d7960a1e657938767
+  references: 147336159a6929d5f456863b0c8feef99a77bc2a00efb06f2a3a46f24c61a397
+  executive_summary_integration: 095d7253e8fa612c8c0d06451979b9e3736bf096e9e576e75f4dd27581091e2c
+  intake_review: b04fcf233c7fb85ba65dca739e6fe1cef61e93d9ba9b9df63de22d128a6731d3
+  binary_handoff: cee52f2d0570aae8f8156f71d4720545aad9e7b8f4b4451c5afd2d0f085479ec
+claims:
+- ICE-CLM-006
+- ICE-CLM-007
+- ICE-CLM-008
+- ICE-CLM-009
+- ICE-CLM-010
+- ICE-CLM-011
+required_reviews:
+- editorial
+- financial and market evidence
+- competitive and legal
+- SAP strategy and Clean Core
+- product and architecture
+- executive
+publication_authorization:
+  repository_visibility: public
+  authorized_by: Jarvis Richardson / HANA-X AI
+  authorization_date: 2026-07-16
+quality_assurance:
+  original_preserved: true
+  docx_rendered_pages: 9
+  visual_review: passed
+  accessibility_audit: passed
+  exact_financial_claims_publication_approved: false
+binary_derivatives:
+  docx:
+    filename: ICE-BIZ-001_Business-Drivers-for-HANA-X-Copilot_v0.1_IN-REVIEW_2026-07-16.docx
+    sha256: ca89f0a5ffcc69a275588014a5c8d7bbdaeaafbcbce5f34d14a37ec0b9f9b50f
+    retention: controlled project handoff package
+  pdf:
+    filename: ICE-BIZ-001_Business-Drivers-for-HANA-X-Copilot_v0.1_IN-REVIEW_2026-07-16.pdf
+    sha256: 452d80881feec85bd652121b51092a9726906085a4bb3b122af65ff651383564
+    retention: controlled project handoff package

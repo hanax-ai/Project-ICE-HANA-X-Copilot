@@ -1,12 +1,10 @@
 # 01 Outline
 
-**Status:** Scaffolded  
-**Program:** Project ICE — HANA-X Copilot
+**Status:** Active  
+**Program:** Project ICE - HANA-X Copilot
 
-## Purpose
+## Current outline
 
-01 Outline artifacts for Executive Summary.
+- `ICE-FM-002_Executive-Summary-Outline_v0.1_2026-07-16.md`
 
-## Repository rule
-
-Store only governed artifacts appropriate to this area. Original evidence must remain immutable; drafts, approved artifacts, and published outputs must remain clearly separated.
+The outline incorporates `ICE-BIZ-001` as the governed business-driver input.

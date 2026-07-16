@@ -1,0 +1,28 @@
+artifact_id: ICE-ARCH-002
+title: SAP S/4HANA Integration Endpoint Strategy
+subtitle: Governed Interface Patterns for HANA-X Copilot
+type: Architecture specification
+version: '0.1'
+status: IN-REVIEW
+owner: HANA-X AI Architecture
+created: 2026-07-16
+source_ids:
+  - ICE-SRC-010
+derived_from:
+  - ICE-SRC-010
+related_artifacts:
+  - ICE-ARCH-001
+  - ADR-003
+  - ADR-009
+  - ADR-017
+canonical_paths:
+  markdown: 05_Architecture/03_SAP_Integration/ICE-ARCH-002_SAP-S4HANA-Integration-Endpoint-Strategy/ICE-ARCH-002_SAP-S4HANA-Integration-Endpoint-Strategy_v0.1_IN-REVIEW_2026-07-16.md
+  review: 05_Architecture/03_SAP_Integration/ICE-ARCH-002_SAP-S4HANA-Integration-Endpoint-Strategy/Reviews/ICE-ARCH-002_Intake-Review.md
+required_reviews:
+  - editorial
+  - technical architecture
+  - SAP integration
+  - security
+  - source and citation
+  - executive
+next_deliverable: ICE-SAP-CAT-001

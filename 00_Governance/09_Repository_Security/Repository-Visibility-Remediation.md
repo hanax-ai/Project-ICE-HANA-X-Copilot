@@ -1,48 +1,34 @@
-# Repository Visibility Remediation
+# Repository Visibility and Public Source-Corpus Policy
 
-## Risk
+## Decision update
 
-The canonical repository contains source records classified as internal and restricted to project use. A public repository exposes those files and their Git history.
+The Project ICE canonical repository is approved to remain public and non-redacted for the current governed source corpus. The founder has authorized this public repository model for Project ICE.
 
-## Immediate preferred action
+The public authorization does **not** permit secrets, SAP credentials, access tokens, customer data, private third-party licensed material, or confidential customer implementation data to be committed.
 
-Make `hanax-ai/Project-ICE-HANA-X-Copilot` private before importing any additional internal, customer, conversation-history, or AI research source documents.
+## Current policy
 
-Run:
-
-```bash
-CONFIRM_VISIBILITY_CHANGE=YES \
-  bash 00_Governance/09_Repository_Security/scripts/make_repository_private.sh
-```
-
-Verify the result in GitHub repository settings and with:
-
-```bash
-gh repo view hanax-ai/Project-ICE-HANA-X-Copilot --json visibility
-```
+- The canonical repository may remain public.
+- Approved Project ICE source materials may remain visible in the repository.
+- Original evidence remains immutable after intake.
+- Every source must have an ID, manifest, register entry, authority tier, and SHA-256 hash.
+- Publication claims continue to require evidence or an active risk-acceptance record.
+- New source files still require confidentiality and rights review before intake.
 
 ## Public distribution model
 
-Approved PDFs, HTML pages, product sheets, and other intentionally public assets may be published through the HANA-X website, a release channel, or a separate sanitized public mirror.
+The repository itself is the governed public source of truth for Project ICE. Website pages, PDFs, executive presentations, or other assets may also be published through HANA-X distribution channels after approval.
 
-To build a sanitized mirror working tree:
-
-```bash
-bash 00_Governance/09_Repository_Security/scripts/create_sanitized_public_mirror.sh \
-  /path/to/Project-ICE-HANA-X-Copilot \
-  /path/to/Project-ICE-HANA-X-Copilot-Public
-```
-
-Review the generated tree before publishing it. The script does not create or push a GitHub repository.
+A sanitized mirror is no longer required for the current Project ICE corpus, but the mirror tooling remains available if a future distribution channel needs a subset-only publication package.
 
 ## Important history rule
 
-Deleting restricted files in a new commit does not remove them from previous commits. Do not attempt an ad hoc force-push. Preserve the canonical history in a private repository and create a new sanitized mirror for public use.
+Do not attempt ad hoc redaction or force-push history rewrites unless a future security incident requires it. Any future removal decision must be handled through a formal governance record.
 
 ## Verification checklist
 
-- [ ] Canonical repository visibility is private.
-- [ ] Branch protection is enabled on `main`.
-- [ ] Source-integrity and register-validation workflows pass.
-- [ ] Public mirrors contain no restricted original, normalized source, summary, working note, credential, customer record, or private review artifact.
-- [ ] Published claims have evidence or an active risk-acceptance record.
+- [x] Public repository authorization is recorded in `PROJECT_MANIFEST.yaml`.
+- [x] Source-integrity and register-validation workflows enforce register and hash consistency.
+- [x] Original evidence remains immutable.
+- [ ] Branch protection is enabled on `main` after all required checks are green.
+- [ ] New sources are screened for credentials, customer data, and publication rights before intake.

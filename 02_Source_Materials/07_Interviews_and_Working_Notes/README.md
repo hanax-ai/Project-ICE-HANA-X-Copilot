@@ -1,12 +1,19 @@
 # 07 Interviews and Working Notes
 
-**Status:** Scaffolded  
+**Status:** Active
 **Program:** Project ICE — HANA-X Copilot
 
 ## Purpose
 
-Controlled evidence and references for this source category.
+Controlled architecture-discovery notes, interviews, conversations, and contextual working records that may inform governed derivative artifacts.
+
+## Current package
+
+- `ICE-SRC-008` — Brain Dump of the HANA-X Copilot Solution Architecture
+- Authority tier: Contextual
+- Status: Proposed
+- Derived artifact: `ICE-ARCH-001`
 
 ## Repository rule
 
-Store only governed artifacts appropriate to this area. Original evidence must remain immutable; drafts, approved artifacts, and published outputs must remain clearly separated.
+Original evidence remains immutable. Working records must be clearly classified, assigned permanent source IDs, hashed at intake, and independently verified before technical assertions are treated as authoritative.

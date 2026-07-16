@@ -1,0 +1,11 @@
+figure_id: ICE-FIG-009
+title: SAP Identity and Tool-Execution Flow
+version: '0.1'
+status: IN-REVIEW
+owner: HANA-X AI Architecture
+source_artifact: ICE-ARCH-001
+editable_source: 10_Visual_and_Brand_Assets/06_Architecture_Figures/ICE-FIG-009_SAP-Identity-and-Tool-Execution-Flow/Source/ICE-FIG-009_SAP-Identity-and-Tool-Execution-Flow_v0.1.dot
+rendered_svg: 10_Visual_and_Brand_Assets/06_Architecture_Figures/ICE-FIG-009_SAP-Identity-and-Tool-Execution-Flow/SVG/ICE-FIG-009_SAP-Identity-and-Tool-Execution-Flow_v0.1_IN-REVIEW.svg
+alt_text: User-bound execution flow from enterprise identity through HANA-X Copilot
+  policy checks, SAP MCP adaptation, customer-selected identity propagation, SAP Gateway,
+  SAP S/4HANA, and audit evidence.

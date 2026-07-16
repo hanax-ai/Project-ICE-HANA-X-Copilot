@@ -1,0 +1,3 @@
+9616c0d07dfba693ad2a503e42b936bdaa7d5e57ac8e621fffef7bb24629690d  ICE-ARCH-001_HANA-X-Copilot-Solution-Architecture_v0.1_IN-REVIEW_2026-07-16.md
+531e40db03f1158dbc4d9d3d2889750d8dd63c12854fb6247a2c25b6e8a2d13f  References/ICE-ARCH-001_References.md
+bcb798e9430c51feadd681a159b7d758cd3479cb1550d56fda95c01d54d74656  06_Requirements/11_Requirements_Traceability/ICE-ARCH-001_Derived-Requirements_v0.1.csv

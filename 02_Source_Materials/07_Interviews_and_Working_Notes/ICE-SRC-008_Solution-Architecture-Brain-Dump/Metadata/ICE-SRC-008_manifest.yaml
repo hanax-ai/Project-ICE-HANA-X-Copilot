@@ -1,0 +1,29 @@
+source_id: ICE-SRC-008
+title: Brain Dump of the HANA-X Copilot Solution Architecture
+author: Jarvis Richardson / HANA-X AI
+source_type: Internal architecture working record
+authority_tier: Contextual
+status: Proposed
+version: '1.0'
+source_stage: architecture-discovery
+acquisition_date: 2026-07-16
+original_received_filename: Brain dump of the solution architecture.docx
+ai_assisted_content: true
+eligible_as_primary_technical_evidence: false
+independent_verification_required: true
+originals_immutable: true
+publication_authorization:
+  repository_visibility: public
+  authorized_by: Jarvis Richardson / HANA-X AI
+  authorization_date: 2026-07-16
+derived_artifacts:
+- ICE-ARCH-001
+license_or_rights: HANA-X-owned; owner-authorized for public Project ICE repository
+  use
+external_original:
+  received_filename: Brain dump of the solution architecture.docx
+  project_file_id: file_000000003dc071f7ae49d529139998e9
+  sha256: 60488581e75c9e0e1f66ef353f47053e886b95959412c5a77abdb663da2130dd
+  hash_status: verified at intake
+  source_location_record: 02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-008_Solution-Architecture-Brain-Dump/Originals/SOURCE-LOCATION.md
+canonical_transcription: 02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-008_Solution-Architecture-Brain-Dump/Extracted/ICE-SRC-008_extracted-text.md

@@ -1,0 +1,19 @@
+digraph G {
+ graph [rankdir=LR, bgcolor="white", pad="0.25", fontname="Arial", label="SAP Identity and Governed Tool-Execution Flow", labelloc=t, fontsize=20];
+ node [shape=box, style="rounded,filled", fontname="Arial", fontsize=10, color="#5B6770"];
+ edge [fontname="Arial", fontsize=9, color="#66737D"];
+ user [label="Authenticated user", fillcolor="#F2F4F5"];
+ idp [label="Enterprise IdP\nUser identity and session", fillcolor="#E9F2FB"];
+ agent [label="HANA-X Copilot\nUser-bound execution context", fillcolor="#DDEBFA"];
+ policy [label="Policy and approval gate\nTool allowlist, threshold, segregation of duties", fillcolor="#DDF3F0"];
+ mcp [label="SAP MCP adapter\nSchema mapping, CSRF, ETag, retries, audit", fillcolor="#DDF3F0"];
+ token [label="Customer-selected identity pattern\nDelegation, token exchange, or service identity", fillcolor="#FFF4D6"];
+ gateway [label="SAP Gateway / released interface", fillcolor="#ECEFF1"];
+ sap [label="SAP S/4HANA\nNative authorization and change log", fillcolor="white", penwidth=1.8];
+ audit [label="Audit evidence\nIntent, plan, approval, request, result", fillcolor="#F7E8F1"];
+ user -> idp -> agent -> policy -> mcp -> token -> gateway -> sap;
+ agent -> audit [style=dashed];
+ policy -> audit [style=dashed];
+ mcp -> audit [style=dashed];
+ sap -> audit [style=dashed];
+}

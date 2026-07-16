@@ -1,0 +1,18 @@
+figure_id: ICE-FIG-001
+title: Enterprise Intent Layer Reference Architecture
+version: '0.1'
+status: IN-REVIEW
+owner: HANA-X AI Architecture
+source_artifact: ICE-SRC-008
+submitted_concept:
+  project_file_id: file_00000000f20c71f5bd8f47042495769b
+  source_location_record: 10_Visual_and_Brand_Assets/06_Architecture_Figures/ICE-FIG-001_Enterprise-Intent-Layer-Reference-Architecture/Source/Received/SOURCE-LOCATION.md
+  sha256: ff1b5954cec9de12763c3983a2919fe6a48694d63484cd6d1e2ae2c66b2c4632
+  dimensions: 784x1168
+  format: JPEG
+editable_source: 10_Visual_and_Brand_Assets/06_Architecture_Figures/ICE-FIG-001_Enterprise-Intent-Layer-Reference-Architecture/Source/ICE-FIG-001_Enterprise-Intent-Layer-Reference-Architecture_v0.1.dot
+rendered_svg: 10_Visual_and_Brand_Assets/06_Architecture_Figures/ICE-FIG-001_Enterprise-Intent-Layer-Reference-Architecture/SVG/ICE-FIG-001_Enterprise-Intent-Layer-Reference-Architecture_v0.1_IN-REVIEW.svg
+alt_text: Layered HANA-X Copilot architecture showing a business user, CopilotKit,
+  AG-UI, LangGraph, intent refinement, policy and context services, governed MCP tools,
+  released SAP interfaces, and SAP S/4HANA, with on-premises Ollama, ingestion, and
+  cross-cutting governance controls.

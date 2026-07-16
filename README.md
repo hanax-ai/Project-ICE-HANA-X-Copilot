@@ -82,7 +82,7 @@ Approved status values are `DRAFT`, `IN-REVIEW`, `APPROVED`, `PUBLISHED`, `SUPER
 
 ## Current source set
 
-The initial register includes the HANA-X Agentic OS white paper, Query Response, HANA-X Copilot Business Case, Letter from the Founder, and Procurement Agent Specification. See `01_Registers/ICE_Source_Register.csv`.
+The governed source register includes the HANA-X Agentic OS white paper, product-direction responses, the procurement business case and specification, the Letter from the Founder, and the contextual solution-architecture working record `ICE-SRC-008`. See `01_Registers/ICE_Source_Register.csv`.
 
 ## Root metadata and governance files
 
@@ -92,4 +92,4 @@ The initial register includes the HANA-X Agentic OS white paper, Query Response,
 
 ## Current status
 
-Repository governance and publication scaffolding initialized on 2026-07-14. `ICE-FM-001` v1.0, **Letter from the Founder**, was published on 2026-07-14; its complete reproducibility snapshot is release package v1.0.1. The next governed artifact is the **HANA-X Copilot Master Authoring Guide**.
+Repository governance and publication scaffolding initialized on 2026-07-14. `ICE-FM-001` v1.0, **Letter from the Founder**, was published on 2026-07-14; its complete reproducibility snapshot is release package v1.0.1. `ICE-ARCH-001` v0.1, **HANA-X Copilot Solution Architecture**, is now IN-REVIEW. The next publication-governance artifact remains the **HANA-X Copilot Master Authoring Guide**.

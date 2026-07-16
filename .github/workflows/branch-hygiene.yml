@@ -1,0 +1,61 @@
+name: Branch hygiene
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: project-ice-branch-hygiene
+  cancel-in-progress: false
+
+jobs:
+  retain-main-and-working-only:
+    name: Retain main and working only
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete unauthorized branches
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          mapfile -t branches < <(
+            gh api --paginate "repos/${REPOSITORY}/branches?per_page=100" --jq '.[].name'
+          )
+
+          for branch in "${branches[@]}"; do
+            case "${branch}" in
+              main|working)
+                echo "Keeping ${branch}"
+                ;;
+              *)
+                encoded_branch="$(python - "${branch}" <<'PY'
+          import sys
+          from urllib.parse import quote
+          print(quote(sys.argv[1], safe=""))
+          PY
+          )"
+                echo "Deleting unauthorized branch ${branch}"
+                gh api --method DELETE "repos/${REPOSITORY}/git/refs/heads/${encoded_branch}"
+                ;;
+            esac
+          done
+
+          mapfile -t remaining < <(
+            gh api --paginate "repos/${REPOSITORY}/branches?per_page=100" --jq '.[].name' | sort
+          )
+
+          expected=(main working)
+          if [[ "${remaining[*]}" != "${expected[*]}" ]]; then
+            echo "Unexpected branch set after cleanup: ${remaining[*]}" >&2
+            exit 1
+          fi
+
+          echo "Branch policy verified: main and working are the only branches."

@@ -1,0 +1,16 @@
+digraph G {
+ graph [rankdir=LR, bgcolor="white", pad="0.25", fontname="Arial", label="Governed Document and Web Ingestion Pipeline", labelloc=t, fontsize=20];
+ node [shape=box, style="rounded,filled", fontname="Arial", fontsize=10, color="#5B6770", fillcolor="#EDF5FB"];
+ edge [fontname="Arial", fontsize=9, color="#66737D"];
+ acquire [label="Acquire\nUpload, email, URL, API"];
+ validate [label="Validate source\nType, URL, allowlist, rights"];
+ scan [label="Security scan\nMalware, SSRF, private-address blocking", fillcolor="#FCE8E6"];
+ preserve [label="Preserve original\nHash, source ID, provenance", fillcolor="#DDF3F0"];
+ normalize [label="Normalize\nDocling or Crawl4AI to structured Markdown/JSON", fillcolor="#FFF4D6"];
+ classify [label="Classify and enrich\nSensitivity, entities, metadata, citations"];
+ persist [label="Commit canonical record\nPostgreSQL + object storage", fillcolor="#DDF3F0"];
+ index [label="Index asynchronously\nQdrant + LightRAG", fillcolor="#E9F2FB"];
+ evaluate [label="Quality gate\nExtraction, citation, retrieval tests"];
+ available [label="Available to governed retrieval", fillcolor="#DDF3F0"];
+ acquire -> validate -> scan -> preserve -> normalize -> classify -> persist -> index -> evaluate -> available;
+}

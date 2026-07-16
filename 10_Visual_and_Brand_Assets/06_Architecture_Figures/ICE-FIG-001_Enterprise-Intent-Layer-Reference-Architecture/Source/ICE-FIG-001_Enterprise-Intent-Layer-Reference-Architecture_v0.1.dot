@@ -1,0 +1,46 @@
+digraph G {
+  graph [rankdir=TB, bgcolor="white", pad="0.35", nodesep="0.35", ranksep="0.55", fontname="Arial", label="HANA-X Copilot Solution Architecture — Intent-to-Action Reference for SAP S/4HANA", labelloc=t, fontsize=22];
+  node [shape=box, style="rounded,filled", fontname="Arial", fontsize=11, color="#5B6770", penwidth=1.2, margin="0.18,0.10"];
+  edge [fontname="Arial", fontsize=9, color="#66737D", penwidth=1.2, arrowsize=0.8];
+
+  user [label="Business User\nNatural language, structured input, approval", fillcolor="#F2F4F5", width=4.6];
+  experience [label="CopilotKit Experience Layer\nReact / Next.js, chat, generative UI, shared state", fillcolor="#E9F2FB", width=5.2];
+  agui [label="AG-UI Interaction Protocol\nBidirectional event stream, state, tools, interrupts", fillcolor="#E9F2FB", width=5.2];
+  runtime [label="LangGraph Agent Runtime\nDurable, stateful orchestration and checkpoints", fillcolor="#DDEBFA", width=5.2];
+  refine [label="Intent Refinement & Clarification Service\nEntity resolution, missing-field questions, options, confirmation", fillcolor="#DDF3F0", width=5.2];
+
+  subgraph cluster_context {
+    label="Policy, Context & Planning";
+    color="#8CBDB5"; penwidth=1.4; style="rounded"; bgcolor="#F3FBF9"; fontname="Arial"; fontsize=13;
+    policy [label="Policy & Approval\nRules, thresholds, allowed tools", fillcolor="white"];
+    pg [label="PostgreSQL\nAuthoritative metadata, state, audit", fillcolor="white"];
+    qd [label="Qdrant\nRebuildable vector / hybrid index", fillcolor="white"];
+    lr [label="LightRAG\nRelationship-aware retrieval", fillcolor="white"];
+    mem [label="Preference Memory\nOptional; governed user defaults", fillcolor="white", style="rounded,filled,dashed"];
+    {rank=same; policy; pg; qd; lr; mem;}
+  }
+
+  tools [label="Governed Tool Execution Layer\nMCP adapters, schema validation, authorization, audit", fillcolor="#DDF3F0", width=5.2];
+  apis [label="Released SAP S/4HANA APIs, OData Services & Events\nEdition- and release-appropriate interfaces", fillcolor="#ECEFF1", width=5.2];
+  sap [label="SAP S/4HANA\nEnterprise System of Record", fillcolor="white", width=5.2, penwidth=1.8];
+
+  ollama [label="On-premises model runtime\nOllama + benchmark-selected open-weight models", fillcolor="#FFF4D6", shape=box, style="rounded,filled"];
+  ingest [label="Governed ingestion\nDocling + Crawl4AI", fillcolor="#FFF4D6"];
+  control [label="Cross-cutting controls\nIdentity • authorization • human approval • audit • observability • provenance", fillcolor="#F7E8F1", width=5.2];
+
+  user -> experience -> agui -> runtime -> refine -> policy;
+  policy -> tools -> apis -> sap;
+  runtime -> pg [style=dashed];
+  refine -> pg [style=dashed];
+  pg -> qd [label="outbox / index jobs", style=dashed];
+  pg -> lr [style=dashed];
+  qd -> lr [style=dashed];
+  ollama -> runtime [style=dashed];
+  ollama -> refine [style=dashed];
+  ollama -> lr [style=dashed];
+  ingest -> pg [style=dashed];
+  ingest -> qd [style=dashed];
+  ingest -> lr [style=dashed];
+  control -> tools [style=dashed, arrowhead=none];
+  control -> apis [style=dashed, arrowhead=none];
+}

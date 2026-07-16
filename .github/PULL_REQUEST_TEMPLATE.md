@@ -6,6 +6,12 @@ Describe the governed artifacts added or changed.
 
 Explain the publication, architecture, requirements, source-management, security, or release need.
 
+## Branch policy
+
+- [ ] Head branch is `working`.
+- [ ] Base branch is `main`.
+- [ ] No additional Project ICE branch is required.
+
 ## Artifact scope
 
 - [ ] Governance
@@ -29,8 +35,8 @@ List source IDs, claim IDs, requirement IDs, ADRs, figures, risks, issues, relea
 ## Visibility and confidentiality
 
 - [ ] Repository visibility is appropriate for every added file.
-- [ ] No restricted source is being introduced to a public repository or public mirror.
-- [ ] Public-mirror exclusions were reviewed when applicable.
+- [ ] Public use rights are recorded for HANA-X-owned source material.
+- [ ] Third-party, customer, credential-bearing, and contractually restricted material received separate review.
 
 ## Validation
 

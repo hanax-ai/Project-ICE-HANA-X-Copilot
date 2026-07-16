@@ -1,0 +1,25 @@
+digraph G {
+ graph [rankdir=LR, bgcolor="white", pad="0.25", nodesep="0.35", ranksep="0.45", fontname="Arial", label="Intent Refinement and Clarification Sequence", labelloc=t, fontsize=20];
+ node [shape=box, style="rounded,filled", fontname="Arial", fontsize=10, color="#5B6770", fillcolor="#EDF5FB"];
+ edge [fontname="Arial", fontsize=9, color="#66737D"];
+ input [label="1. User intent\nNatural language request"];
+ analyze [label="2. Analyze intent\nResolve entities and required fields", fillcolor="#DDF3F0"];
+ complete [label="Payload complete?", shape=diamond, fillcolor="#FFF4D6"];
+ budget [label="Clarification budget\nremaining?", shape=diamond, fillcolor="#FFF4D6"];
+ ask [label="3. Ask one targeted question\nOpen text, multiple choice, or confirmation", fillcolor="#E9F2FB"];
+ answer [label="4. User response\nUpdate shared state", fillcolor="#E9F2FB"];
+ plan [label="5. Present execution plan\nActions, data, impact, approvals", fillcolor="#DDF3F0"];
+ approve [label="User approves?", shape=diamond, fillcolor="#FFF4D6"];
+ execute [label="6. Governed tool execution", fillcolor="#DDF3F0"];
+ fallback [label="Fallback / escalation\nShow unresolved fields, stop safely", fillcolor="#FCE8E6"];
+ input -> analyze -> complete;
+ complete -> plan [label="yes"];
+ complete -> budget [label="no"];
+ budget -> ask [label="yes"];
+ ask -> answer -> analyze;
+ budget -> fallback [label="no"];
+ plan -> approve;
+ approve -> execute [label="yes"];
+ approve -> ask [label="edit / clarify"];
+ approve -> fallback [label="cancel"];
+}

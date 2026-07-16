@@ -1,0 +1,11 @@
+figure_id: ICE-FIG-008
+title: Governed Document and Web Ingestion
+version: '0.1'
+status: IN-REVIEW
+owner: HANA-X AI Architecture
+source_artifact: ICE-ARCH-001
+editable_source: 10_Visual_and_Brand_Assets/06_Architecture_Figures/ICE-FIG-008_Governed-Document-and-Web-Ingestion/Source/ICE-FIG-008_Governed-Document-and-Web-Ingestion_v0.1.dot
+rendered_svg: 10_Visual_and_Brand_Assets/06_Architecture_Figures/ICE-FIG-008_Governed-Document-and-Web-Ingestion/SVG/ICE-FIG-008_Governed-Document-and-Web-Ingestion_v0.1_IN-REVIEW.svg
+alt_text: Pipeline from file, email, URL, or API acquisition through source validation,
+  security scanning, preservation, Docling or Crawl4AI normalization, classification,
+  persistence, asynchronous indexing, and retrieval quality gates.

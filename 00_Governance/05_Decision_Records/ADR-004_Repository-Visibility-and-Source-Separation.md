@@ -1,44 +1,32 @@
-# ADR-004: Separate Restricted Source Evidence from Public Publication Assets
+# ADR-004: Public Canonical Repository With Governed Source Controls
 
 **Status:** Accepted
-**Date:** 2026-07-14
+**Date:** 2026-07-16
 **Owner:** HANA-X AI
 
 ## Context
 
-Project ICE contains two classes of information:
+Project ICE contains governed publication assets, internal source evidence, working records, specifications, and architecture discovery material.
 
-1. approved publication assets intended for external distribution; and
-2. internal source evidence, working records, specifications, and conversation history that may be restricted to project use.
+An earlier remediation path recommended a private canonical repository plus a sanitized public mirror. The founder has since authorized the canonical Project ICE repository to remain public and non-redacted for the current source corpus.
 
-A public repository cannot safely contain restricted source evidence. Removing a file in a later commit does not remove it from Git history.
+Public repository authorization does not reduce the need for confidentiality review, source immutability, evidence tracking, or claim governance.
 
 ## Decision
 
-The canonical Project ICE repository must be private whenever it contains restricted source evidence. Public distribution must occur through approved deliverables or a separately generated sanitized public mirror.
+The Project ICE repository may remain public as the canonical governed repository, provided that the following controls remain in force:
 
-The repository must enforce the following controls:
-
-- restricted originals are prohibited in a public repository;
-- original evidence is immutable after intake;
-- every source has an ID, manifest, register entry, authority tier, and hash;
-- public mirrors exclude restricted source packages and private working records;
-- changing repository visibility or creating a public mirror requires an explicit administrative action and verification;
-- publication artifacts may be public only after their review status and any accepted exceptions are recorded.
-
-## Supported implementation paths
-
-### Path A - Private canonical repository (preferred)
-
-Make the existing canonical repository private. Continue to store governed source evidence and publication work in the same repository. Publish approved PDFs, HTML, and other approved outputs separately.
-
-### Path B - Sanitized public mirror
-
-Keep the canonical repository private and generate a separate public mirror containing only approved public artifacts, non-sensitive governance material, and sanitized metadata. Do not copy restricted originals, normalized restricted content, internal working notes, or private review records.
+- public repository authorization is recorded in `PROJECT_MANIFEST.yaml`;
+- original source evidence remains immutable after intake;
+- every source has an ID, manifest, register entry, authority tier, and SHA-256 hash;
+- secrets, SAP credentials, access tokens, customer data, and unauthorized third-party material are prohibited;
+- AI-generated and exploratory material is clearly labeled by authority tier;
+- published claims require evidence or a recorded risk-acceptance exception;
+- all substantive changes pass governance workflows and code-owner review.
 
 ## Consequences
 
-- The current public repository must be made private before additional restricted material is imported.
-- A public mirror, if required, is a derived distribution channel and not the source of truth.
-- Source-intake and repository-visibility checks must run in CI.
-- Any history containing restricted material must remain private or be replaced by a sanitized mirror; deleting files from the current branch is insufficient.
+- The source-integrity workflow must permit the founder-authorized public source-corpus model when the Project Manifest explicitly allows it.
+- The workflow must continue to fail if public restricted-source exposure occurs without manifest authorization.
+- Confidentiality screening remains mandatory for new source intake.
+- A sanitized mirror remains available as an optional downstream distribution mechanism, not the canonical source of truth.

@@ -2,4 +2,16 @@ Decision ID,Title,Status,Date,Owner,Path,Supersedes
 ADR-001,Position HANA-X Copilot as the Enterprise Intent Layer,Accepted,2026-07-14,HANA-X AI,00_Governance/05_Decision_Records/ADR-001_Enterprise-Intent-Layer.md,
 ADR-002,Introduce Intent-Centric Enterprise Computing,Accepted,2026-07-14,HANA-X AI,00_Governance/05_Decision_Records/ADR-002_Intent-Centric-Enterprise-Computing.md,
 ADR-003,Use released SAP interfaces to preserve Clean Core,Accepted,2026-07-14,HANA-X AI,00_Governance/05_Decision_Records/ADR-003_SAP-Clean-Core-Integration.md,
-ADR-004,Separate restricted source evidence from public publication assets,Accepted,2026-07-14,HANA-X AI,00_Governance/05_Decision_Records/ADR-004_Repository-Visibility-and-Source-Separation.md,
+ADR-004,Public canonical repository with governed source controls,Accepted,2026-07-16,HANA-X AI,00_Governance/05_Decision_Records/ADR-004_Repository-Visibility-and-Source-Separation.md,Earlier private-repository recommendation
+ADR-005,Adopt CopilotKit and AG-UI for the agent experience boundary,Proposed,2026-07-16,HANA-X AI Architecture,00_Governance/05_Decision_Records/ADR-005_CopilotKit-and-AG-UI-Experience-Architecture.md,
+ADR-006,Use LangGraph as the durable stateful orchestration runtime,Proposed,2026-07-16,HANA-X AI Architecture,00_Governance/05_Decision_Records/ADR-006_LangGraph-Stateful-Orchestration.md,
+ADR-007,Create an Intent Refinement and Clarification Service,Proposed,2026-07-16,HANA-X AI Architecture,00_Governance/05_Decision_Records/ADR-007_Intent-Refinement-and-Clarification-Service.md,
+ADR-008,Use Ollama as the on-premises model-serving boundary,Proposed,2026-07-16,HANA-X AI Architecture,00_Governance/05_Decision_Records/ADR-008_Ollama-On-Premises-Model-Runtime.md,
+ADR-009,Use MCP as the governed SAP tool-adaptation boundary,Proposed,2026-07-16,HANA-X AI Architecture,00_Governance/05_Decision_Records/ADR-009_MCP-Boundary-for-SAP-Tools.md,
+ADR-010,Use PostgreSQL as the authoritative context record and Qdrant as a rebuildable retrieval index,Proposed,2026-07-16,HANA-X AI Architecture,00_Governance/05_Decision_Records/ADR-010_PostgreSQL-Qdrant-Context-Storage.md,
+ADR-011,Evaluate LightRAG for relationship-aware retrieval,Proposed,2026-07-16,HANA-X AI Architecture,00_Governance/05_Decision_Records/ADR-011_LightRAG-Relationship-Aware-Retrieval.md,
+ADR-012,Use Docling for governed document normalization,Proposed,2026-07-16,HANA-X AI Architecture,00_Governance/05_Decision_Records/ADR-012_Docling-Document-Normalization.md,
+ADR-013,Use Crawl4AI for governed web acquisition,Proposed,2026-07-16,HANA-X AI Architecture,00_Governance/05_Decision_Records/ADR-013_Crawl4AI-Governed-Web-Acquisition.md,
+ADR-014,Keep preference memory optional and begin with explicit PostgreSQL records,Proposed,2026-07-16,HANA-X AI Architecture,00_Governance/05_Decision_Records/ADR-014_Preference-Memory-Strategy.md,
+ADR-015,Support a matrix of SAP identity and principal-propagation patterns,Proposed,2026-07-16,HANA-X AI Architecture,00_Governance/05_Decision_Records/ADR-015_SAP-Identity-and-Principal-Propagation-Patterns.md,
+ADR-016,Operate Project ICE with main and working branches only,Accepted,2026-07-16,HANA-X AI,00_Governance/05_Decision_Records/ADR-016_Two-Branch-Repository-Model.md,Previous agent author and review branch-prefix guidance

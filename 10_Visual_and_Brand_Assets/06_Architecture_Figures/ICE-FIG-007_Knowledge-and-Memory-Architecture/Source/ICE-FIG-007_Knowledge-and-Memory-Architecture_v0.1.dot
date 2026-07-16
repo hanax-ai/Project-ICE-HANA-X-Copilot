@@ -1,0 +1,22 @@
+digraph G {
+ graph [rankdir=LR, bgcolor="white", pad="0.25", fontname="Arial", label="Knowledge and Memory Architecture", labelloc=t, fontsize=20];
+ node [shape=box, style="rounded,filled", fontname="Arial", fontsize=10, color="#5B6770"];
+ edge [fontname="Arial", fontsize=9, color="#66737D"];
+ sources [label="Files • email • web • SAP context", fillcolor="#F2F4F5"];
+ ingest [label="Acquire, scan, preserve, normalize\nDocling / Crawl4AI", fillcolor="#FFF4D6"];
+ pg [label="PostgreSQL\nCanonical artifacts, metadata, jobs, audit", fillcolor="#DDF3F0"];
+ outbox [label="Transactional outbox\nIdempotent indexing jobs", fillcolor="#E9F2FB"];
+ qd [label="Qdrant\nDense + sparse vectors and filters", fillcolor="#E9F2FB"];
+ lr [label="LightRAG\nEntities, relationships, graph-aware retrieval", fillcolor="#E9F2FB"];
+ pref [label="Optional preference memory\nCurated defaults and user choices", fillcolor="#F7E8F1", style="rounded,filled,dashed"];
+ retrieve [label="Context assembly\nPolicy-aware ranking, citations, hydration", fillcolor="#DDF3F0"];
+ agent [label="LangGraph planning and response", fillcolor="#DDEBFA"];
+ sources -> ingest -> pg -> outbox;
+ outbox -> qd;
+ outbox -> lr;
+ pg -> retrieve;
+ qd -> retrieve;
+ lr -> retrieve;
+ pref -> retrieve [style=dashed];
+ retrieve -> agent;
+}

@@ -1,29 +1,34 @@
 project:
   id: HXC-ICE
   name: Project ICE - HANA-X Copilot
-  working_title: "HANA-X Copilot, The First Commercially Available SAP S/4HANA Copilot"
+  working_title: HANA-X Copilot, The First Commercially Available SAP S/4HANA Copilot
   codename: Project ICE
   paradigm: Intent-Centric Enterprise Computing
   product_role: Enterprise Intent Layer for SAP S/4HANA
   status: active
-  initialized: 2026-07-14
+  initialized: '2026-07-14'
   owner: HANA-X AI
 
 repository:
   canonical_name: Project-ICE-HANA-X-Copilot
   canonical_url: https://github.com/hanax-ai/Project-ICE-HANA-X-Copilot
   default_branch: main
-  working_branch_prefixes:
-    - agent/
-    - author/
-    - review/
+  working_branch: working
+  allowed_branches:
+    - main
+    - working
+  branch_policy:
+    additional_branches_allowed: false
+    merge_direction: working-to-main
+    synchronize_working_after_merge: true
+    automatic_hygiene: true
   published_artifacts_immutable: true
   originals_immutable: true
   visibility_policy:
     canonical_visibility: public
     restricted_sources_allowed_when_public: false
     owner_authorized_public_source_materials: true
-    authorization_date: 2026-07-16
+    authorization_date: '2026-07-16'
     authorization_basis: Founder and repository owner direction
     public_distribution: governed repository and approved deliverables
 
@@ -40,8 +45,8 @@ publication:
   published_front_matter:
     - artifact_id: ICE-FM-001
       title: Letter from the Founder
-      version: "1.0"
-      publication_date: 2026-07-14
+      version: '1.0'
+      publication_date: '2026-07-14'
       path: 11_Deliverables/01_Front_Matter/Web/HXC-ICE-FM-001_Letter-from-the-Founder_v1.0_PUBLISHED_WEB_2026-07-14.pdf
       current_release_package: 12_Releases/Founder-Letter/v1.0.1
   intended_outputs:
@@ -60,6 +65,7 @@ source_register:
     - ICE-SRC-003
     - ICE-SRC-004
     - ICE-SRC-005
+    - ICE-SRC-008
 
 controls:
   source_authority_order:
@@ -82,4 +88,14 @@ governance_automation:
   register_validation_workflow: .github/workflows/register-validation.yml
   artifact_manifest_validation_workflow: .github/workflows/artifact-manifest-validation.yml
   release_integrity_workflow: .github/workflows/release-integrity.yml
+  branch_hygiene_workflow: .github/workflows/branch-hygiene.yml
+  repository_inventory_workflow: .github/workflows/repository-inventory.yml
   codeowners: .github/CODEOWNERS
+
+architecture:
+  current_artifacts:
+    - artifact_id: ICE-ARCH-001
+      title: HANA-X Copilot Solution Architecture
+      version: '0.1'
+      status: IN-REVIEW
+      path: 05_Architecture/02_Component_Architecture/ICE-ARCH-001_HANA-X-Copilot-Solution-Architecture/ICE-ARCH-001_HANA-X-Copilot-Solution-Architecture_v0.1_IN-REVIEW_2026-07-16.md

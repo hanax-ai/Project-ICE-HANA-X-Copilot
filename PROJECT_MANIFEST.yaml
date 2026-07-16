@@ -20,9 +20,12 @@ repository:
   published_artifacts_immutable: true
   originals_immutable: true
   visibility_policy:
+    canonical_visibility: public
     restricted_sources_allowed_when_public: false
-    preferred_canonical_visibility: private
-    public_distribution: approved deliverables or sanitized mirror
+    owner_authorized_public_source_materials: true
+    authorization_date: 2026-07-16
+    authorization_basis: Founder and repository owner direction
+    public_distribution: governed repository and approved deliverables
 
 publication:
   target_length_pages: 60-80

@@ -130,6 +130,7 @@
 02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-008_Solution-Architecture-Brain-Dump/Originals/README.md
 02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-008_Solution-Architecture-Brain-Dump/Originals/SOURCE-LOCATION.md
 02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-008_Solution-Architecture-Brain-Dump/README.md
+02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-009_n8n-and-Multi-MCP-Architecture-Supplement/Originals/ICE-SRC-009_n8n-and-Multi-MCP-Architecture-Supplement_RECEIVED_2026-07-16.txt
 02_Source_Materials/07_Interviews_and_Working_Notes/README.md
 02_Source_Materials/README.md
 03_Knowledge_Base/01_Normalized_Sources/ICE-SRC-001.md

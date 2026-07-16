@@ -72,9 +72,25 @@ def validate_project_manifest(root, errors):
         errors.append("PROJECT_MANIFEST.yaml repository must be a mapping")
         return
 
-    prefixes = repository.get("working_branch_prefixes")
-    if prefixes != ["agent/", "author/", "review/"]:
-        errors.append("PROJECT_MANIFEST.yaml working_branch_prefixes must be agent/, author/, review/")
+    if repository.get("default_branch") != "main":
+        errors.append("PROJECT_MANIFEST.yaml default_branch must be main")
+    if repository.get("working_branch") != "working":
+        errors.append("PROJECT_MANIFEST.yaml working_branch must be working")
+    if repository.get("allowed_branches") != ["main", "working"]:
+        errors.append("PROJECT_MANIFEST.yaml allowed_branches must contain only main and working")
+
+    branch_policy = repository.get("branch_policy")
+    if not isinstance(branch_policy, dict):
+        errors.append("PROJECT_MANIFEST.yaml repository.branch_policy must be a mapping")
+    else:
+        if branch_policy.get("additional_branches_allowed") is not False:
+            errors.append("PROJECT_MANIFEST.yaml must prohibit additional branches")
+        if branch_policy.get("merge_direction") != "working-to-main":
+            errors.append("PROJECT_MANIFEST.yaml merge_direction must be working-to-main")
+        if branch_policy.get("synchronize_working_after_merge") is not True:
+            errors.append("PROJECT_MANIFEST.yaml must require working synchronization after merge")
+        if branch_policy.get("automatic_hygiene") is not True:
+            errors.append("PROJECT_MANIFEST.yaml must enable automatic branch hygiene")
 
     visibility = repository.get("visibility_policy")
     if not isinstance(visibility, dict):
@@ -87,6 +103,12 @@ def validate_project_manifest(root, errors):
         errors.append("PROJECT_MANIFEST.yaml must prohibit restricted sources in a public repository")
     if visibility.get("canonical_visibility") == "public" and visibility.get("owner_authorized_public_source_materials") is not True:
         errors.append("Public canonical repositories require owner_authorized_public_source_materials: true")
+
+    automation = data.get("governance_automation")
+    if not isinstance(automation, dict):
+        errors.append("PROJECT_MANIFEST.yaml governance_automation must be a mapping")
+    elif automation.get("branch_hygiene_workflow") != ".github/workflows/branch-hygiene.yml":
+        errors.append("PROJECT_MANIFEST.yaml must register .github/workflows/branch-hygiene.yml")
 
 
 def main():

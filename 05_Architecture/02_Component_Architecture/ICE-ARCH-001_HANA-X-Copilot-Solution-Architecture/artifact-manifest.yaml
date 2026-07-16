@@ -54,7 +54,6 @@ publication_authorization:
   authorization_date: 2026-07-16
 sha256:
   markdown: 9616c0d07dfba693ad2a503e42b936bdaa7d5e57ac8e621fffef7bb24629690d
-  references: 531e40db03f1158dbc4d9d3d2889750d8dd63c12854fb6247a2c25b6e8a2d13f
   requirements: bcb798e9430c51feadd681a159b7d758cd3479cb1550d56fda95c01d54d74656
 quality_assurance:
   figure_sources: editable DOT sources retained with SVG renders; submitted raster provenance and hash recorded

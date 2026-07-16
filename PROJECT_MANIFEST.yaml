@@ -66,6 +66,7 @@ source_register:
     - ICE-SRC-004
     - ICE-SRC-005
     - ICE-SRC-008
+    - ICE-SRC-009
 
 controls:
   source_authority_order:
@@ -99,3 +100,9 @@ architecture:
       version: '0.1'
       status: IN-REVIEW
       path: 05_Architecture/02_Component_Architecture/ICE-ARCH-001_HANA-X-Copilot-Solution-Architecture/ICE-ARCH-001_HANA-X-Copilot-Solution-Architecture_v0.1_IN-REVIEW_2026-07-16.md
+      addenda:
+        - addendum_id: ICE-ARCH-001-ADD-001
+          title: n8n and Multi-MCP Integration Architecture
+          version: '0.1'
+          status: IN-REVIEW
+          path: 05_Architecture/02_Component_Architecture/ICE-ARCH-001_HANA-X-Copilot-Solution-Architecture/ICE-ARCH-001_ADD-001_n8n-and-Multi-MCP-Integration_v0.1_IN-REVIEW_2026-07-16.md

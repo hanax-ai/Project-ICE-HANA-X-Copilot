@@ -14,3 +14,4 @@ ADR-012,Use Docling for governed document normalization,Proposed,2026-07-16,HANA
 ADR-013,Use Crawl4AI for governed web acquisition,Proposed,2026-07-16,HANA-X AI Architecture,00_Governance/05_Decision_Records/ADR-013_Crawl4AI-Governed-Web-Acquisition.md,
 ADR-014,Keep preference memory optional and begin with explicit PostgreSQL records,Proposed,2026-07-16,HANA-X AI Architecture,00_Governance/05_Decision_Records/ADR-014_Preference-Memory-Strategy.md,
 ADR-015,Support a matrix of SAP identity and principal-propagation patterns,Proposed,2026-07-16,HANA-X AI Architecture,00_Governance/05_Decision_Records/ADR-015_SAP-Identity-and-Principal-Propagation-Patterns.md,
+ADR-016,Operate Project ICE with main and working branches only,Accepted,2026-07-16,HANA-X AI,00_Governance/05_Decision_Records/ADR-016_Two-Branch-Repository-Model.md,Previous agent author and review branch-prefix guidance

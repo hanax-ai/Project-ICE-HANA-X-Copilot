@@ -228,6 +228,7 @@
 05_Architecture/01_Reference_Architecture/README.md
 05_Architecture/01_Reference_Architecture/SVG/README.md
 05_Architecture/01_Reference_Architecture/Source/README.md
+05_Architecture/02_Component_Architecture/ICE-ARCH-001_HANA-X-Copilot-Solution-Architecture/ICE-ARCH-001_ADD-001_n8n-and-Multi-MCP-Integration_v0.1_IN-REVIEW_2026-07-16.md
 05_Architecture/02_Component_Architecture/ICE-ARCH-001_HANA-X-Copilot-Solution-Architecture/ICE-ARCH-001_HANA-X-Copilot-Solution-Architecture_v0.1_IN-REVIEW_2026-07-16.md
 05_Architecture/02_Component_Architecture/ICE-ARCH-001_HANA-X-Copilot-Solution-Architecture/README.md
 05_Architecture/02_Component_Architecture/ICE-ARCH-001_HANA-X-Copilot-Solution-Architecture/References/ICE-ARCH-001_References.md

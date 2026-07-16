@@ -267,6 +267,7 @@
 06_Requirements/10_Acceptance_Criteria/README.md
 06_Requirements/11_Requirements_Traceability/ICE-ARCH-001_Derived-Requirements_v0.1.csv
 06_Requirements/11_Requirements_Traceability/ICE-ARCH-001_Derived-Requirements_v0.1.md
+06_Requirements/11_Requirements_Traceability/ICE-ARCH-001_n8n-and-Multi-MCP-Requirements_v0.1.csv
 06_Requirements/11_Requirements_Traceability/README.md
 06_Requirements/12_Product_Backlog_Exports/README.md
 06_Requirements/README.md

@@ -1,0 +1,30 @@
+source_id: ICE-SRC-010
+title: SAP S/4HANA Endpoints Working Draft
+author: Jarvis Richardson / HANA-X AI
+source_type: Internal architecture working record
+authority_tier: Contextual
+status: Accepted
+source_stage: endpoint-strategy-discovery
+publication_date: null
+acquisition_date: 2026-07-16
+original_file_name: s4-endpoints.docx
+repository_path: 02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-010_SAP-S4HANA-Endpoints-Working-Draft/Originals/SOURCE-LOCATION.md
+sha256: 7bce4cfcdb1f8d8d4d9fe255dd4c3f0c28d88983df89a5da3eb0bb9d39f2a051
+ai_assisted_content: true
+eligible_as_primary_technical_evidence: false
+independent_verification_required: true
+originals_immutable: true
+public_repository_authorized: true
+related_artifacts:
+  - ICE-ARCH-002
+topics:
+  - SAP S/4HANA endpoints
+  - OData
+  - REST
+  - SOAP
+  - IDoc
+  - RFC/BAPI
+  - business events
+  - documentation sources
+  - MCP
+notes: Original source identity is preserved by conversation file ID and SHA-256. Links were classified and harmonized in ICE-ARCH-002.

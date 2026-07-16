@@ -134,6 +134,9 @@
 02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-009_n8n-and-Multi-MCP-Architecture-Supplement/Metadata/ICE-SRC-009_manifest.yaml
 02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-009_n8n-and-Multi-MCP-Architecture-Supplement/Originals/ICE-SRC-009_n8n-and-Multi-MCP-Architecture-Supplement_RECEIVED_2026-07-16.txt
 02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-009_n8n-and-Multi-MCP-Architecture-Supplement/README.md
+02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-010_SAP-S4HANA-Endpoints-Working-Draft/Metadata/ICE-SRC-010_manifest.yaml
+02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-010_SAP-S4HANA-Endpoints-Working-Draft/Originals/SOURCE-LOCATION.md
+02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-010_SAP-S4HANA-Endpoints-Working-Draft/README.md
 02_Source_Materials/07_Interviews_and_Working_Notes/README.md
 02_Source_Materials/README.md
 03_Knowledge_Base/01_Normalized_Sources/ICE-SRC-001.md
@@ -240,6 +243,10 @@
 05_Architecture/03_SAP_Integration/Authentication/README.md
 05_Architecture/03_SAP_Integration/Clean_Core/README.md
 05_Architecture/03_SAP_Integration/Endpoint_Mapping/README.md
+05_Architecture/03_SAP_Integration/ICE-ARCH-002_SAP-S4HANA-Integration-Endpoint-Strategy/ICE-ARCH-002_SAP-S4HANA-Integration-Endpoint-Strategy_v0.1_IN-REVIEW_2026-07-16.md
+05_Architecture/03_SAP_Integration/ICE-ARCH-002_SAP-S4HANA-Integration-Endpoint-Strategy/README.md
+05_Architecture/03_SAP_Integration/ICE-ARCH-002_SAP-S4HANA-Integration-Endpoint-Strategy/Reviews/ICE-ARCH-002_Intake-Review.md
+05_Architecture/03_SAP_Integration/ICE-ARCH-002_SAP-S4HANA-Integration-Endpoint-Strategy/artifact-manifest.yaml
 05_Architecture/03_SAP_Integration/OData/README.md
 05_Architecture/03_SAP_Integration/README.md
 05_Architecture/03_SAP_Integration/SAP_Gateway/README.md

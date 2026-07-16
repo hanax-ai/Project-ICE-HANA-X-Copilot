@@ -89,6 +89,7 @@ governance_automation:
   artifact_manifest_validation_workflow: .github/workflows/artifact-manifest-validation.yml
   release_integrity_workflow: .github/workflows/release-integrity.yml
   branch_hygiene_workflow: .github/workflows/branch-hygiene.yml
+  repository_inventory_workflow: .github/workflows/repository-inventory.yml
   codeowners: .github/CODEOWNERS
 
 architecture:

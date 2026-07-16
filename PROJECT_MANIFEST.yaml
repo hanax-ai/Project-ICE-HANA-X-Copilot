@@ -8,14 +8,20 @@ project:
   status: active
   initialized: '2026-07-14'
   owner: HANA-X AI
+
 repository:
   canonical_name: Project-ICE-HANA-X-Copilot
   canonical_url: https://github.com/hanax-ai/Project-ICE-HANA-X-Copilot
   default_branch: main
-  working_branch_prefixes:
-  - agent/
-  - author/
-  - review/
+  working_branch: working
+  allowed_branches:
+    - main
+    - working
+  branch_policy:
+    additional_branches_allowed: false
+    merge_direction: working-to-main
+    synchronize_working_after_merge: true
+    automatic_hygiene: true
   published_artifacts_immutable: true
   originals_immutable: true
   visibility_policy:
@@ -25,64 +31,70 @@ repository:
     authorization_date: '2026-07-16'
     authorization_basis: Founder and repository owner direction
     public_distribution: governed repository and approved deliverables
+
 publication:
   target_length_pages: 60-80
   primary_audience:
-  - SAP leadership
-  - SAP S/4HANA customers
-  - enterprise executives
-  - SAP decision-makers
-  - enterprise architects
-  - implementation teams
+    - SAP leadership
+    - SAP S/4HANA customers
+    - enterprise executives
+    - SAP decision-makers
+    - enterprise architects
+    - implementation teams
   flagship_use_case: procurement
   published_front_matter:
-  - artifact_id: ICE-FM-001
-    title: Letter from the Founder
-    version: '1.0'
-    publication_date: '2026-07-14'
-    path: 11_Deliverables/01_Front_Matter/Web/HXC-ICE-FM-001_Letter-from-the-Founder_v1.0_PUBLISHED_WEB_2026-07-14.pdf
-    current_release_package: 12_Releases/Founder-Letter/v1.0.1
+    - artifact_id: ICE-FM-001
+      title: Letter from the Founder
+      version: '1.0'
+      publication_date: '2026-07-14'
+      path: 11_Deliverables/01_Front_Matter/Web/HXC-ICE-FM-001_Letter-from-the-Founder_v1.0_PUBLISHED_WEB_2026-07-14.pdf
+      current_release_package: 12_Releases/Founder-Letter/v1.0.1
   intended_outputs:
-  - flagship technical white paper
-  - product vision
-  - technical reference architecture
-  - requirements foundation
-  - executive briefing
-  - partner implementation guide
+    - flagship technical white paper
+    - product vision
+    - technical reference architecture
+    - requirements foundation
+    - executive briefing
+    - partner implementation guide
+
 source_register:
   canonical_path: 01_Registers/ICE_Source_Register.csv
   current_source_ids:
-  - ICE-SRC-001
-  - ICE-SRC-002
-  - ICE-SRC-003
-  - ICE-SRC-004
-  - ICE-SRC-005
-  - ICE-SRC-008
+    - ICE-SRC-001
+    - ICE-SRC-002
+    - ICE-SRC-003
+    - ICE-SRC-004
+    - ICE-SRC-005
+    - ICE-SRC-008
+
 controls:
   source_authority_order:
-  - verified technical facts and official SAP documentation
-  - approved HANA-X architecture decisions
-  - approved founder vision and strategic terminology
-  - supporting business cases and implementation examples
-  - exploratory and draft marketing content
+    - verified technical facts and official SAP documentation
+    - approved HANA-X architecture decisions
+    - approved founder vision and strategic terminology
+    - supporting business cases and implementation examples
+    - exploratory and draft marketing content
   publication_gates:
-  - editorial review
-  - technical architecture review
-  - SAP integration review
-  - source and citation review
-  - claims and legal review
-  - security review
-  - executive approval
+    - editorial review
+    - technical architecture review
+    - SAP integration review
+    - source and citation review
+    - claims and legal review
+    - security review
+    - executive approval
+
 governance_automation:
   source_integrity_workflow: .github/workflows/source-integrity.yml
   register_validation_workflow: .github/workflows/register-validation.yml
   artifact_manifest_validation_workflow: .github/workflows/artifact-manifest-validation.yml
   release_integrity_workflow: .github/workflows/release-integrity.yml
+  branch_hygiene_workflow: .github/workflows/branch-hygiene.yml
   codeowners: .github/CODEOWNERS
+
 architecture:
   current_artifacts:
-  - artifact_id: ICE-ARCH-001
-    title: HANA-X Copilot Solution Architecture
-    version: '0.1'
-    status: IN-REVIEW
-    path: 05_Architecture/02_Component_Architecture/ICE-ARCH-001_HANA-X-Copilot-Solution-Architecture/ICE-ARCH-001_HANA-X-Copilot-Solution-Architecture_v0.1_IN-REVIEW_2026-07-16.md
+    - artifact_id: ICE-ARCH-001
+      title: HANA-X Copilot Solution Architecture
+      version: '0.1'
+      status: IN-REVIEW
+      path: 05_Architecture/02_Component_Architecture/ICE-ARCH-001_HANA-X-Copilot-Solution-Architecture/ICE-ARCH-001_HANA-X-Copilot-Solution-Architecture_v0.1_IN-REVIEW_2026-07-16.md

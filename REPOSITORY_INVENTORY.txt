@@ -39,6 +39,7 @@
 00_Governance/05_Decision_Records/ADR-014_Preference-Memory-Strategy.md
 00_Governance/05_Decision_Records/ADR-015_SAP-Identity-and-Principal-Propagation-Patterns.md
 00_Governance/05_Decision_Records/ADR-016_Two-Branch-Repository-Model.md
+00_Governance/05_Decision_Records/ADR-017_Governed-Multi-MCP-and-n8n-Workflow-Automation.md
 00_Governance/05_Decision_Records/README.md
 00_Governance/06_Change_Control/Change-Request-Register.csv
 00_Governance/06_Change_Control/Publication-Change-Log.md

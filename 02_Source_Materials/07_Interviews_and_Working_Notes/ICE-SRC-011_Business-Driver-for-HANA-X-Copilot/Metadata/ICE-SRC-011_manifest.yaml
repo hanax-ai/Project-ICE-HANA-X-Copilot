@@ -1,0 +1,33 @@
+source_id: ICE-SRC-011
+title: Business Driver for HANA-X Copilot - Working Analysis
+author: Jarvis Richardson / HANA-X AI
+source_type: Internal business and market analysis
+authority_tier: Contextual
+status: Accepted
+source_stage: business-driver-analysis
+publication_date: null
+acquisition_date: 2026-07-16
+original_file_name: Business_Driver_4_HXCopilot.pdf
+repository_path: 02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-011_Business-Driver-for-HANA-X-Copilot/Originals/SOURCE-LOCATION.md
+sha256: 612fce253738883e4406e2486879b89dc180cda2dc7e3089712442106ed4b5bd
+related_sources:
+  - ICE-SRC-003
+  - ICE-SRC-004
+ai_assisted_content: true
+eligible_as_primary_financial_evidence: false
+independent_verification_required: true
+originals_immutable: true
+public_repository_authorized: true
+topics:
+  - business drivers
+  - SAP market context
+  - cloud backlog
+  - agentic AI competition
+  - enterprise software valuation
+  - HANA-X Copilot positioning
+  - Enterprise Intent Layer
+intended_use:
+  - derive ICE-BIZ-001
+  - inform ICE-FM-002 Executive Summary
+  - inform Part I - Evolution of Enterprise Computing
+notes: The source PDF contains duplicated material and secondary-source financial claims. The original is retained unchanged; the derivative separates strategic thesis from claims requiring evidence.

@@ -8,6 +8,7 @@ owner: HANA-X AI Architecture
 created: 2026-07-16
 derived_from:
 - ICE-SRC-008
+- ICE-SRC-009
 related_sources:
 - ICE-SRC-001
 - ICE-SRC-002
@@ -16,6 +17,7 @@ related_sources:
 - ICE-SRC-005
 canonical_paths:
   markdown: 05_Architecture/02_Component_Architecture/ICE-ARCH-001_HANA-X-Copilot-Solution-Architecture/ICE-ARCH-001_HANA-X-Copilot-Solution-Architecture_v0.1_IN-REVIEW_2026-07-16.md
+  addendum_001: 05_Architecture/02_Component_Architecture/ICE-ARCH-001_HANA-X-Copilot-Solution-Architecture/ICE-ARCH-001_ADD-001_n8n-and-Multi-MCP-Integration_v0.1_IN-REVIEW_2026-07-16.md
   references: 05_Architecture/02_Component_Architecture/ICE-ARCH-001_HANA-X-Copilot-Solution-Architecture/References/ICE-ARCH-001_References.md
 figures:
 - ICE-FIG-001
@@ -36,7 +38,9 @@ decision_records:
 - ADR-013
 - ADR-014
 - ADR-015
+- ADR-017
 requirements_path: 06_Requirements/11_Requirements_Traceability/ICE-ARCH-001_Derived-Requirements_v0.1.csv
+supplemental_requirements_path: 06_Requirements/11_Requirements_Traceability/ICE-ARCH-001_n8n-and-Multi-MCP-Requirements_v0.1.csv
 required_reviews:
 - editorial
 - technical architecture
@@ -50,11 +54,11 @@ publication_authorization:
   authorization_date: 2026-07-16
 sha256:
   markdown: 9616c0d07dfba693ad2a503e42b936bdaa7d5e57ac8e621fffef7bb24629690d
-  references: 531e40db03f1158dbc4d9d3d2889750d8dd63c12854fb6247a2c25b6e8a2d13f
   requirements: bcb798e9430c51feadd681a159b7d758cd3479cb1550d56fda95c01d54d74656
 quality_assurance:
-  figure_sources: editable DOT sources retained with SVG renders; submitted raster
-    provenance and hash recorded
+  figure_sources: editable DOT sources retained with SVG renders; submitted raster provenance and hash recorded
   canonical_markdown_validation: passed
+  addendum_status: IN-REVIEW
 source_ids:
 - ICE-SRC-008
+- ICE-SRC-009

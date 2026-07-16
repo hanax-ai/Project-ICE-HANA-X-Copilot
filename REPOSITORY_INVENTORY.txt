@@ -39,6 +39,7 @@
 00_Governance/05_Decision_Records/ADR-014_Preference-Memory-Strategy.md
 00_Governance/05_Decision_Records/ADR-015_SAP-Identity-and-Principal-Propagation-Patterns.md
 00_Governance/05_Decision_Records/ADR-016_Two-Branch-Repository-Model.md
+00_Governance/05_Decision_Records/ADR-017_Governed-Multi-MCP-and-n8n-Workflow-Automation.md
 00_Governance/05_Decision_Records/README.md
 00_Governance/06_Change_Control/Change-Request-Register.csv
 00_Governance/06_Change_Control/Publication-Change-Log.md
@@ -130,6 +131,9 @@
 02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-008_Solution-Architecture-Brain-Dump/Originals/README.md
 02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-008_Solution-Architecture-Brain-Dump/Originals/SOURCE-LOCATION.md
 02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-008_Solution-Architecture-Brain-Dump/README.md
+02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-009_n8n-and-Multi-MCP-Architecture-Supplement/Metadata/ICE-SRC-009_manifest.yaml
+02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-009_n8n-and-Multi-MCP-Architecture-Supplement/Originals/ICE-SRC-009_n8n-and-Multi-MCP-Architecture-Supplement_RECEIVED_2026-07-16.txt
+02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-009_n8n-and-Multi-MCP-Architecture-Supplement/README.md
 02_Source_Materials/07_Interviews_and_Working_Notes/README.md
 02_Source_Materials/README.md
 03_Knowledge_Base/01_Normalized_Sources/ICE-SRC-001.md
@@ -138,6 +142,7 @@
 03_Knowledge_Base/01_Normalized_Sources/ICE-SRC-004.md
 03_Knowledge_Base/01_Normalized_Sources/ICE-SRC-005.md
 03_Knowledge_Base/01_Normalized_Sources/ICE-SRC-008.md
+03_Knowledge_Base/01_Normalized_Sources/ICE-SRC-009.md
 03_Knowledge_Base/01_Normalized_Sources/README.md
 03_Knowledge_Base/02_Source_Summaries/ICE-SRC-001_summary.md
 03_Knowledge_Base/02_Source_Summaries/ICE-SRC-002_summary.md
@@ -224,6 +229,7 @@
 05_Architecture/01_Reference_Architecture/README.md
 05_Architecture/01_Reference_Architecture/SVG/README.md
 05_Architecture/01_Reference_Architecture/Source/README.md
+05_Architecture/02_Component_Architecture/ICE-ARCH-001_HANA-X-Copilot-Solution-Architecture/ICE-ARCH-001_ADD-001_n8n-and-Multi-MCP-Integration_v0.1_IN-REVIEW_2026-07-16.md
 05_Architecture/02_Component_Architecture/ICE-ARCH-001_HANA-X-Copilot-Solution-Architecture/ICE-ARCH-001_HANA-X-Copilot-Solution-Architecture_v0.1_IN-REVIEW_2026-07-16.md
 05_Architecture/02_Component_Architecture/ICE-ARCH-001_HANA-X-Copilot-Solution-Architecture/README.md
 05_Architecture/02_Component_Architecture/ICE-ARCH-001_HANA-X-Copilot-Solution-Architecture/References/ICE-ARCH-001_References.md
@@ -261,6 +267,7 @@
 06_Requirements/10_Acceptance_Criteria/README.md
 06_Requirements/11_Requirements_Traceability/ICE-ARCH-001_Derived-Requirements_v0.1.csv
 06_Requirements/11_Requirements_Traceability/ICE-ARCH-001_Derived-Requirements_v0.1.md
+06_Requirements/11_Requirements_Traceability/ICE-ARCH-001_n8n-and-Multi-MCP-Requirements_v0.1.csv
 06_Requirements/11_Requirements_Traceability/README.md
 06_Requirements/12_Product_Backlog_Exports/README.md
 06_Requirements/README.md

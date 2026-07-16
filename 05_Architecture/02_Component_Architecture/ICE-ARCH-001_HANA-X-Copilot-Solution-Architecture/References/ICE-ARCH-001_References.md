@@ -1,7 +1,7 @@
 # ICE-ARCH-001 Reference Catalog
 
 **Artifact:** ICE-ARCH-001  
-**Version:** 0.1  
+**Version:** 0.1 with Addendum 001  
 **Status:** IN-REVIEW  
 **Retrieved:** 2026-07-16
 
@@ -19,10 +19,15 @@
 | ICE-REF-ARCH-010 | Mem0 | Open-source overview | https://docs.mem0.ai/open-source/overview | Optional user-preference and long-term memory evaluation |
 | ICE-REF-ARCH-011 | SAP | Exploring the Clean Core concept | https://learning.sap.com/courses/validating-business-transformations-leveraging-integrated-transformation-tools-solutions/exploring-the-clean-core-concept- | Clean Core principles and stable extension boundaries |
 | ICE-REF-ARCH-012 | SAP | SAP S/4HANA on-premise product documentation | https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE | Edition- and release-specific integration and product documentation |
+| ICE-REF-ARCH-013 | n8n | MCP Server Trigger node documentation | https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-langchain.mcptrigger/ | n8n workflow exposure through an MCP endpoint, authentication, path, limitations, and deployment considerations |
+| ICE-REF-ARCH-014 | FastMCP | FastMCP client documentation | https://gofastmcp.com/clients/client | Client connections to independently operated MCP servers and transport profiles |
+| ICE-REF-ARCH-015 | LangChain | MCP adapters and multi-server client project | https://github.com/langchain-ai/langchain-mcp-adapters | Adapting MCP tools for LangChain and LangGraph applications; implementation subject to selected version |
 
 ## Citation policy
 
 - Official project and vendor documentation supports statements about product capabilities.
 - SAP claims must be validated against the customer’s S/4HANA edition and release.
 - Open-source component behavior must be validated against the version selected for implementation.
+- The exact n8n transport and authentication configuration must be validated against the deployed n8n version and topology.
+- Discovered MCP tool descriptions are metadata and do not establish authorization or policy.
 - The presence of a component in this catalog does not constitute product approval or a permanent implementation commitment.

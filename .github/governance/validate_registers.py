@@ -79,8 +79,14 @@ def validate_project_manifest(root, errors):
     visibility = repository.get("visibility_policy")
     if not isinstance(visibility, dict):
         errors.append("PROJECT_MANIFEST.yaml repository.visibility_policy must be a mapping")
-    elif visibility.get("restricted_sources_allowed_when_public") is not False:
+        return
+
+    if visibility.get("canonical_visibility") not in {"public", "private"}:
+        errors.append("PROJECT_MANIFEST.yaml canonical_visibility must be public or private")
+    if visibility.get("restricted_sources_allowed_when_public") is not False:
         errors.append("PROJECT_MANIFEST.yaml must prohibit restricted sources in a public repository")
+    if visibility.get("canonical_visibility") == "public" and visibility.get("owner_authorized_public_source_materials") is not True:
+        errors.append("Public canonical repositories require owner_authorized_public_source_materials: true")
 
 
 def main():

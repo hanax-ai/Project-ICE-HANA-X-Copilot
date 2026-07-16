@@ -49,6 +49,16 @@ publication:
       publication_date: '2026-07-14'
       path: 11_Deliverables/01_Front_Matter/Web/HXC-ICE-FM-001_Letter-from-the-Founder_v1.0_PUBLISHED_WEB_2026-07-14.pdf
       current_release_package: 12_Releases/Founder-Letter/v1.0.1
+  executive_summary:
+    artifact_id: ICE-FM-002
+    status: SCAFFOLDED
+    primary_inputs:
+      - ICE-FM-001
+      - ICE-BIZ-001
+      - ICE-ARCH-001
+      - ICE-ARCH-002
+      - ICE-SRC-003
+      - ICE-SRC-005
   intended_outputs:
     - flagship technical white paper
     - product vision
@@ -68,6 +78,7 @@ source_register:
     - ICE-SRC-008
     - ICE-SRC-009
     - ICE-SRC-010
+    - ICE-SRC-011
 
 controls:
   source_authority_order:
@@ -113,3 +124,12 @@ architecture:
       status: IN-REVIEW
       path: 05_Architecture/03_SAP_Integration/ICE-ARCH-002_SAP-S4HANA-Integration-Endpoint-Strategy/ICE-ARCH-002_SAP-S4HANA-Integration-Endpoint-Strategy_v0.1_IN-REVIEW_2026-07-16.md
       next_deliverable: ICE-SAP-CAT-001
+
+business_strategy:
+  current_artifacts:
+    - artifact_id: ICE-BIZ-001
+      title: Business Drivers for HANA-X Copilot
+      version: '0.1'
+      status: IN-REVIEW
+      path: 04_White_Paper/00_Front_Matter/ICE-BIZ-001_Business-Drivers-for-HANA-X-Copilot/02_Drafts/ICE-BIZ-001_Business-Drivers-for-HANA-X-Copilot_v0.1_IN-REVIEW_2026-07-16.md
+      executive_summary_input: true

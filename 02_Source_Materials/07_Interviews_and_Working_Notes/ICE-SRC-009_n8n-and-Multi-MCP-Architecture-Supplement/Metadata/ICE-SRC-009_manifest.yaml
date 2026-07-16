@@ -9,7 +9,6 @@ publication_date: null
 acquisition_date: 2026-07-16
 original_file_name: Pasted text.txt
 repository_path: 02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-009_n8n-and-Multi-MCP-Architecture-Supplement/Originals/ICE-SRC-009_n8n-and-Multi-MCP-Architecture-Supplement_RECEIVED_2026-07-16.txt
-sha256: f49af7b756f69d91538938af97d58a3c0d23a13e606c1a35dc4baabf04903ab8
 related_sources:
   - ICE-SRC-008
 ai_assisted_content: true
@@ -32,4 +31,4 @@ intended_use:
   - update ICE-ARCH-001
   - derive ADR-017
   - derive integration and orchestration requirements
-notes: Illustrative code and protocol assumptions require validation against official documentation and the deployed component versions.
+notes: Repository original is a governed transcription of the composer attachment; illustrative code and protocol assumptions require validation against official documentation and deployed component versions. A source hash will be added when the exact binary composer attachment is archived through the controlled intake process.

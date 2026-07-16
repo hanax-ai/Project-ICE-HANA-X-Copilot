@@ -26,7 +26,25 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p /tmp/ice-arch
-          cat .github/materialization/ice-arch-001/part-* > /tmp/ice-arch/overlay.tar.gz.b64
+          parts=(
+            .github/materialization/ice-arch-001/part-000
+            .github/materialization/ice-arch-001/part-001
+            .github/materialization/ice-arch-001/part-002
+            .github/materialization/ice-arch-001/part-003
+            .github/materialization/ice-arch-001/part-0040
+            .github/materialization/ice-arch-001/part-00410
+            .github/materialization/ice-arch-001/part-00411
+            .github/materialization/ice-arch-001/part-00420
+            .github/materialization/ice-arch-001/part-004210
+            .github/materialization/ice-arch-001/part-004211
+            .github/materialization/ice-arch-001/part-004212
+            .github/materialization/ice-arch-001/part-004213
+            .github/materialization/ice-arch-001/part-004214
+            .github/materialization/ice-arch-001/part-00430
+            .github/materialization/ice-arch-001/part-00431
+            .github/materialization/ice-arch-001/part-005
+          )
+          cat "${parts[@]}" > /tmp/ice-arch/overlay.tar.gz.b64
           base64 --decode /tmp/ice-arch/overlay.tar.gz.b64 > /tmp/ice-arch/overlay.tar.gz
           echo "032009e88916b093ee78f16b14ca0475937272f0fe651c234dcef07337427ab6  /tmp/ice-arch/overlay.tar.gz" | sha256sum -c -
           tar -xzf /tmp/ice-arch/overlay.tar.gz -C .

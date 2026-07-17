@@ -19,6 +19,7 @@
 00_Governance/02_Master_Authoring_Guide/ICE-GOV-002_Master-Authoring-Guide.md
 00_Governance/02_Master_Authoring_Guide/ICE-GOV-002_Master-Authoring-Guide_v1.0_IN-REVIEW_2026-07-16.md
 00_Governance/02_Master_Authoring_Guide/README.md
+00_Governance/02_Master_Authoring_Guide/artifact-manifest.yaml
 00_Governance/03_Editorial_Style_Guide/ICE-GOV-003_Editorial-Style-Guide.md
 00_Governance/03_Editorial_Style_Guide/README.md
 00_Governance/04_Terminology_and_Glossary/ICE-GOV-004_Terminology-Standard.md

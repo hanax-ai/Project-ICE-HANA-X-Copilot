@@ -1,23 +1,10 @@
 # ICE-GOV-002 — HANA-X Copilot Master Authoring Guide
 
-**Status:** DRAFT SCAFFOLD  
-**Version:** 0.1
+The draft scaffold has been superseded by the governed review artifact:
 
-## Purpose
+- [`ICE-GOV-002_Master-Authoring-Guide_v1.0_IN-REVIEW_2026-07-16.md`](ICE-GOV-002_Master-Authoring-Guide_v1.0_IN-REVIEW_2026-07-16.md)
 
-This document will govern mission, audience, narrative structure, editorial standards, terminology, sourcing, citations, diagrams, chapter templates, Agent Zero and Claude instructions, review gates, quality criteria, and requirements extraction.
+**Current status:** IN-REVIEW  
+**Canonical manifest:** [`artifact-manifest.yaml`](artifact-manifest.yaml)
 
-## Planned sections
-
-1. Publication mission and north-star statement
-2. Audience and reader journeys
-3. Core thesis and narrative architecture
-4. Approved terminology and prohibited formulations
-5. Editorial voice and style
-6. Evidence, source authority, citations, and claims controls
-7. Chapter authoring template
-8. Architecture and diagram standards
-9. Agent Zero and Claude operating instructions
-10. Review workflow and quality gates
-11. Requirements traceability method
-12. Publication assembly and release controls
+This pointer is retained to preserve existing repository links. Do not use it as the canonical authoring standard.

@@ -16,6 +16,7 @@
 .gitignore
 00_Governance/01_Project_Charter/ICE-GOV-001_Project-Charter.md
 00_Governance/01_Project_Charter/README.md
+00_Governance/02_Master_Authoring_Guide/Addenda/ICE-GOV-002-ADD-001_Executive-Summary-Authoring-Standard_v0.1_IN-REVIEW_2026-07-16.md
 00_Governance/02_Master_Authoring_Guide/ICE-GOV-002_Master-Authoring-Guide.md
 00_Governance/02_Master_Authoring_Guide/ICE-GOV-002_Master-Authoring-Guide_v1.0_IN-REVIEW_2026-07-16.md
 00_Governance/02_Master_Authoring_Guide/README.md
@@ -155,6 +156,13 @@
 02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-011_Business-Driver-for-HANA-X-Copilot/Originals/README.md
 02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-011_Business-Driver-for-HANA-X-Copilot/Originals/SOURCE-LOCATION.md
 02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-011_Business-Driver-for-HANA-X-Copilot/README.md
+02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-012_Executive-Summary-Writing-Guidance/Extracted/ICE-SRC-012_extracted-text.md
+02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-012_Executive-Summary-Writing-Guidance/Extracted/README.md
+02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-012_Executive-Summary-Writing-Guidance/Metadata/ICE-SRC-012_manifest.yaml
+02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-012_Executive-Summary-Writing-Guidance/Metadata/README.md
+02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-012_Executive-Summary-Writing-Guidance/Originals/README.md
+02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-012_Executive-Summary-Writing-Guidance/Originals/SOURCE-LOCATION.md
+02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-012_Executive-Summary-Writing-Guidance/README.md
 02_Source_Materials/07_Interviews_and_Working_Notes/README.md
 02_Source_Materials/README.md
 03_Knowledge_Base/01_Normalized_Sources/ICE-SRC-001.md
@@ -165,6 +173,7 @@
 03_Knowledge_Base/01_Normalized_Sources/ICE-SRC-008.md
 03_Knowledge_Base/01_Normalized_Sources/ICE-SRC-009.md
 03_Knowledge_Base/01_Normalized_Sources/ICE-SRC-011.md
+03_Knowledge_Base/01_Normalized_Sources/ICE-SRC-012.md
 03_Knowledge_Base/01_Normalized_Sources/README.md
 03_Knowledge_Base/02_Source_Summaries/ICE-SRC-001_summary.md
 03_Knowledge_Base/02_Source_Summaries/ICE-SRC-002_summary.md
@@ -173,6 +182,7 @@
 03_Knowledge_Base/02_Source_Summaries/ICE-SRC-005_summary.md
 03_Knowledge_Base/02_Source_Summaries/ICE-SRC-008_summary.md
 03_Knowledge_Base/02_Source_Summaries/ICE-SRC-011_summary.md
+03_Knowledge_Base/02_Source_Summaries/ICE-SRC-012_summary.md
 03_Knowledge_Base/02_Source_Summaries/README.md
 03_Knowledge_Base/03_Topic_Knowledge/Agentic_AI/README.md
 03_Knowledge_Base/03_Topic_Knowledge/Enterprise_Intent_Layer/README.md
@@ -220,12 +230,18 @@
 04_White_Paper/00_Front_Matter/ICE-FM-001_Letter-from-the-Founder/04_Approved/README.md
 04_White_Paper/00_Front_Matter/ICE-FM-001_Letter-from-the-Founder/README.md
 04_White_Paper/00_Front_Matter/ICE-FM-001_Letter-from-the-Founder/artifact-manifest.yaml
+04_White_Paper/00_Front_Matter/ICE-FM-002_Executive-Summary/01_Outline/ICE-FM-002_Executive-Summary-Acceptance-Criteria_v0.1_2026-07-16.md
+04_White_Paper/00_Front_Matter/ICE-FM-002_Executive-Summary/01_Outline/ICE-FM-002_Executive-Summary-Chapter-Brief_v0.1_2026-07-16.md
 04_White_Paper/00_Front_Matter/ICE-FM-002_Executive-Summary/01_Outline/ICE-FM-002_Executive-Summary-Outline_v0.1_2026-07-16.md
+04_White_Paper/00_Front_Matter/ICE-FM-002_Executive-Summary/01_Outline/ICE-FM-002_Executive-Summary-Outline_v0.2_2026-07-16.md
 04_White_Paper/00_Front_Matter/ICE-FM-002_Executive-Summary/01_Outline/README.md
+04_White_Paper/00_Front_Matter/ICE-FM-002_Executive-Summary/02_Drafts/ICE-FM-002_Executive-Summary_v0.1_DRAFT_2026-07-16.md
 04_White_Paper/00_Front_Matter/ICE-FM-002_Executive-Summary/02_Drafts/README.md
+04_White_Paper/00_Front_Matter/ICE-FM-002_Executive-Summary/03_Review/ICE-FM-002_Draft-Intake-Review.md
 04_White_Paper/00_Front_Matter/ICE-FM-002_Executive-Summary/03_Review/README.md
 04_White_Paper/00_Front_Matter/ICE-FM-002_Executive-Summary/04_Approved/README.md
 04_White_Paper/00_Front_Matter/ICE-FM-002_Executive-Summary/README.md
+04_White_Paper/00_Front_Matter/ICE-FM-002_Executive-Summary/artifact-manifest.yaml
 04_White_Paper/00_Front_Matter/ICE-FM-003_Publication-Abstract/01_Outline/README.md
 04_White_Paper/00_Front_Matter/ICE-FM-003_Publication-Abstract/02_Drafts/README.md
 04_White_Paper/00_Front_Matter/ICE-FM-003_Publication-Abstract/03_Review/README.md

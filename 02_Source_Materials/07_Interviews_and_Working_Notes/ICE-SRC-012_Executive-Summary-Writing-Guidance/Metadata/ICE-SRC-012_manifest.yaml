@@ -1,0 +1,24 @@
+source_id: ICE-SRC-012
+title: Executive Summary Writing Guidance
+author: Project owner-provided authoring guidance
+source_type: Internal editorial and executive-writing guidance
+authority_tier: Contextual
+status: Accepted
+source_stage: executive-summary-authoring-guidance
+acquisition_date: '2026-07-16'
+original_file_name: exe_summary_instruct.docx
+repository_path: 02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-012_Executive-Summary-Writing-Guidance/Originals/SOURCE-LOCATION.md
+source_reference:
+  conversation_file_id: file_00000000bf68722fbf7cce55be5e76e0
+  original_filename: exe_summary_instruct.docx
+  verified_sha256: 9165c15a1e5dc2431be69d48bec7d72cd4440ef4f8ef65701c3722e73ba6798f
+  binary_location: controlled Project ICE conversation attachment
+originals_immutable: true
+public_repository_authorized: true
+eligible_as_primary_market_evidence: false
+eligible_as_primary_technical_evidence: false
+intended_use:
+- derive ICE-GOV-002-ADD-001
+- govern ICE-FM-002 structure and acceptance
+- inform the first ICE-FM-002 draft
+notes: Authoring guidance only. Example metrics, projections, and budget placeholders are not HANA-X evidence or approved claims. The repository uses a controlled source-location record because the connector-uploaded duplicate failed hash verification and was removed before merge.

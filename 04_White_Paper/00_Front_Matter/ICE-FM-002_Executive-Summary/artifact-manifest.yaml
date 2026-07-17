@@ -1,0 +1,41 @@
+artifact_id: ICE-FM-002
+title: Executive Summary
+type: Front matter and executive decision brief
+version: '0.1'
+status: DRAFT
+owner: Project ICE Publication Office
+created: '2026-07-16'
+canonical_path: 04_White_Paper/00_Front_Matter/ICE-FM-002_Executive-Summary/02_Drafts/ICE-FM-002_Executive-Summary_v0.1_DRAFT_2026-07-16.md
+outline_path: 04_White_Paper/00_Front_Matter/ICE-FM-002_Executive-Summary/01_Outline/ICE-FM-002_Executive-Summary-Outline_v0.2_2026-07-16.md
+chapter_brief_path: 04_White_Paper/00_Front_Matter/ICE-FM-002_Executive-Summary/01_Outline/ICE-FM-002_Executive-Summary-Chapter-Brief_v0.1_2026-07-16.md
+acceptance_criteria_path: 04_White_Paper/00_Front_Matter/ICE-FM-002_Executive-Summary/01_Outline/ICE-FM-002_Executive-Summary-Acceptance-Criteria_v0.1_2026-07-16.md
+source_ids:
+  - ICE-SRC-003
+  - ICE-SRC-005
+  - ICE-SRC-012
+related_artifacts:
+  - ICE-FM-001
+  - ICE-BIZ-001
+  - ICE-ARCH-001
+  - ICE-ARCH-002
+  - ICE-GOV-002
+  - ICE-GOV-006
+  - ICE-GOV-007
+governing_addendum: ICE-GOV-002-ADD-001
+structure:
+  executive_decision_brief_words: 300-500
+  supporting_summary_words: 800-1200
+  complete_reading_time: five minutes or less
+required_reviews:
+  - editorial
+  - executive
+  - product strategy
+  - technical architecture
+  - SAP integration
+  - security
+  - source and citation
+  - claims and legal
+  - visual and accessibility
+publication_authorization:
+  repository_visibility: public
+  status: authorized for governed repository use

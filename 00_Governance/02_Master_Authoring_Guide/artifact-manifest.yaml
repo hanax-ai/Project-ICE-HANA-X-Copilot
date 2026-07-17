@@ -4,8 +4,18 @@ type: Governance and authoring standard
 version: '1.0'
 status: IN-REVIEW
 owner: Project ICE Editorial Team
-created: 2026-07-16
+created: '2026-07-16'
 canonical_path: 00_Governance/02_Master_Authoring_Guide/ICE-GOV-002_Master-Authoring-Guide_v1.0_IN-REVIEW_2026-07-16.md
+addenda:
+  - addendum_id: ICE-GOV-002-ADD-001
+    title: Executive Summary Authoring Standard
+    version: '0.1'
+    status: IN-REVIEW
+    path: 00_Governance/02_Master_Authoring_Guide/Addenda/ICE-GOV-002-ADD-001_Executive-Summary-Authoring-Standard_v0.1_IN-REVIEW_2026-07-16.md
+    derived_from:
+      - ICE-SRC-012
+    applies_to:
+      - ICE-FM-002
 related_artifacts:
   - ICE-GOV-003
   - ICE-GOV-004

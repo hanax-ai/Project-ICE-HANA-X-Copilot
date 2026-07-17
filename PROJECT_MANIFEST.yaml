@@ -42,6 +42,7 @@ publication:
     - enterprise architects
     - implementation teams
   flagship_use_case: procurement
+  governance_readiness: ready-for-executive-summary-draft
   roadmap:
     summary_path: ROADMAP.md
     artifact_id: ICE-GOV-007
@@ -50,6 +51,16 @@ publication:
     content_complete_target: '2026-08-19'
     approved_release_target: '2026-10-08'
     delivery_model: accelerated-content-production-plus-governed-publication-approval
+  authoring_guide:
+    artifact_id: ICE-GOV-002
+    version: '1.0'
+    status: IN-REVIEW
+    path: 00_Governance/02_Master_Authoring_Guide/ICE-GOV-002_Master-Authoring-Guide_v1.0_IN-REVIEW_2026-07-16.md
+  detailed_table_of_contents:
+    artifact_id: ICE-GOV-006
+    version: '1.0'
+    status: IN-REVIEW
+    path: 00_Governance/08_Publication_Blueprint/ICE-GOV-006_Detailed-Table-of-Contents/ICE-GOV-006_Detailed-Table-of-Contents_v1.0_IN-REVIEW_2026-07-16.md
   published_front_matter:
     - artifact_id: ICE-FM-001
       title: Letter from the Founder
@@ -59,7 +70,7 @@ publication:
       current_release_package: 12_Releases/Founder-Letter/v1.0.1
   executive_summary:
     artifact_id: ICE-FM-002
-    status: SCAFFOLDED
+    status: DRAFT
     next_active_milestone: true
     primary_inputs:
       - ICE-FM-001
@@ -68,6 +79,10 @@ publication:
       - ICE-ARCH-002
       - ICE-SRC-003
       - ICE-SRC-005
+    governing_artifacts:
+      - ICE-GOV-002
+      - ICE-GOV-006
+      - ICE-GOV-007
   intended_outputs:
     - flagship technical white paper
     - product vision
@@ -157,10 +172,14 @@ governance_artifacts:
   current_artifacts:
     - artifact_id: ICE-GOV-002
       title: HANA-X Copilot Master Authoring Guide
-      status: DRAFT
+      version: '1.0'
+      status: IN-REVIEW
+      path: 00_Governance/02_Master_Authoring_Guide/ICE-GOV-002_Master-Authoring-Guide_v1.0_IN-REVIEW_2026-07-16.md
     - artifact_id: ICE-GOV-006
-      title: Detailed Table of Contents
-      status: APPROVAL-PENDING
+      title: HANA-X Copilot Detailed Table of Contents
+      version: '1.0'
+      status: IN-REVIEW
+      path: 00_Governance/08_Publication_Blueprint/ICE-GOV-006_Detailed-Table-of-Contents/ICE-GOV-006_Detailed-Table-of-Contents_v1.0_IN-REVIEW_2026-07-16.md
     - artifact_id: ICE-GOV-007
       title: Project ICE Publication Roadmap
       version: '1.0'

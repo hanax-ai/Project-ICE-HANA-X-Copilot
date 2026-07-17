@@ -1,0 +1,33 @@
+artifact_id: ICE-GOV-002
+title: HANA-X Copilot Master Authoring Guide
+type: Governance and authoring standard
+version: '1.0'
+status: IN-REVIEW
+owner: Project ICE Editorial Team
+created: 2026-07-16
+canonical_path: 00_Governance/02_Master_Authoring_Guide/ICE-GOV-002_Master-Authoring-Guide_v1.0_IN-REVIEW_2026-07-16.md
+related_artifacts:
+  - ICE-GOV-003
+  - ICE-GOV-004
+  - ICE-GOV-005
+  - ICE-GOV-006
+  - ICE-GOV-007
+  - ICE-FM-002
+required_reviews:
+  - editorial
+  - governance
+  - technical architecture
+  - SAP integration
+  - source and citation
+  - claims and legal
+  - visual and accessibility
+  - executive
+publication_authorization:
+  repository_visibility: public
+  status: authorized for governed repository use
+quality_controls:
+  canonical_format: Markdown
+  immutable_sources_required: true
+  direct_push_to_main_prohibited: true
+  unsupported_high_risk_claims_prohibited: true
+  published_artifacts_immutable: true

@@ -235,6 +235,7 @@
 04_White_Paper/00_Front_Matter/ICE-FM-002_Executive-Summary/01_Outline/ICE-FM-002_Executive-Summary-Outline_v0.1_2026-07-16.md
 04_White_Paper/00_Front_Matter/ICE-FM-002_Executive-Summary/01_Outline/ICE-FM-002_Executive-Summary-Outline_v0.2_2026-07-16.md
 04_White_Paper/00_Front_Matter/ICE-FM-002_Executive-Summary/01_Outline/README.md
+04_White_Paper/00_Front_Matter/ICE-FM-002_Executive-Summary/02_Drafts/ICE-FM-002_Executive-Summary_v0.1_DRAFT_2026-07-16.md
 04_White_Paper/00_Front_Matter/ICE-FM-002_Executive-Summary/02_Drafts/README.md
 04_White_Paper/00_Front_Matter/ICE-FM-002_Executive-Summary/03_Review/ICE-FM-002_Draft-Intake-Review.md
 04_White_Paper/00_Front_Matter/ICE-FM-002_Executive-Summary/03_Review/README.md

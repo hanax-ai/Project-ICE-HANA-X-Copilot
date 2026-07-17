@@ -1,0 +1,42 @@
+artifact_id: ICE-GOV-006
+title: HANA-X Copilot Detailed Table of Contents
+type: Governance and publication blueprint
+version: '1.0'
+status: IN-REVIEW
+owner: Project ICE Publication Office
+created: 2026-07-16
+canonical_path: 00_Governance/08_Publication_Blueprint/ICE-GOV-006_Detailed-Table-of-Contents/ICE-GOV-006_Detailed-Table-of-Contents_v1.0_IN-REVIEW_2026-07-16.md
+related_artifacts:
+  - ICE-GOV-002
+  - ICE-GOV-007
+  - ICE-FM-001
+  - ICE-FM-002
+  - ICE-BIZ-001
+  - ICE-ARCH-001
+  - ICE-ARCH-002
+page_budget:
+  target_minimum: 60
+  target_maximum: 80
+  blueprint_range_minimum: 64
+  blueprint_range_maximum: 82
+figure_budget:
+  core_minimum: 12
+  core_maximum: 18
+  total_maximum: 25
+required_reviews:
+  - editorial
+  - technical architecture
+  - SAP integration
+  - source and citation
+  - claims and legal
+  - visual and accessibility
+  - executive
+publication_authorization:
+  repository_visibility: public
+  status: authorized for governed repository use
+quality_controls:
+  chapter_objectives_required: true
+  source_dependencies_required: true
+  page_budgets_required: true
+  figure_plan_required: true
+  claims_sensitive_chapters_identified: true

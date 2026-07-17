@@ -420,6 +420,7 @@
 10_Visual_and_Brand_Assets/06_Architecture_Figures/ICE-FIG-009_SAP-Identity-and-Tool-Execution-Flow/SVG/ICE-FIG-009_SAP-Identity-and-Tool-Execution-Flow_v0.1_IN-REVIEW.svg
 10_Visual_and_Brand_Assets/06_Architecture_Figures/ICE-FIG-009_SAP-Identity-and-Tool-Execution-Flow/Source/ICE-FIG-009_SAP-Identity-and-Tool-Execution-Flow_v0.1.dot
 10_Visual_and_Brand_Assets/06_Architecture_Figures/ICE-FIG-010_Enterprise-Intent-Layer-Executive-Overview/Source/ICE-FIG-010_Enterprise-Intent-Layer-Executive-Overview_v0.1.svg
+10_Visual_and_Brand_Assets/06_Architecture_Figures/ICE-FIG-010_Enterprise-Intent-Layer-Executive-Overview/Source/Received/SOURCE-LOCATION.md
 10_Visual_and_Brand_Assets/06_Architecture_Figures/README.md
 10_Visual_and_Brand_Assets/07_Workflow_Figures/README.md
 10_Visual_and_Brand_Assets/08_Infographics/README.md

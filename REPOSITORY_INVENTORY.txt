@@ -160,8 +160,8 @@
 02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-012_Executive-Summary-Writing-Guidance/Extracted/README.md
 02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-012_Executive-Summary-Writing-Guidance/Metadata/ICE-SRC-012_manifest.yaml
 02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-012_Executive-Summary-Writing-Guidance/Metadata/README.md
-02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-012_Executive-Summary-Writing-Guidance/Originals/ICE-SRC-012_Executive-Summary-Writing-Guidance_RECEIVED_2026-07-16.docx
 02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-012_Executive-Summary-Writing-Guidance/Originals/README.md
+02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-012_Executive-Summary-Writing-Guidance/Originals/SOURCE-LOCATION.md
 02_Source_Materials/07_Interviews_and_Working_Notes/ICE-SRC-012_Executive-Summary-Writing-Guidance/README.md
 02_Source_Materials/07_Interviews_and_Working_Notes/README.md
 02_Source_Materials/README.md

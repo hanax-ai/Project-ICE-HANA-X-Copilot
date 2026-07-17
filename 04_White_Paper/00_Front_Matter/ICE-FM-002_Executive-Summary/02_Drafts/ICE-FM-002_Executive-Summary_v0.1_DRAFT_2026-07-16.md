@@ -13,6 +13,9 @@ derived_from:
   - ICE-SRC-003
   - ICE-SRC-005
   - ICE-SRC-012
+figures:
+  - ICE-FIG-010
+  - ICE-FIG-011
 ---
 
 # Executive Summary
@@ -28,6 +31,10 @@ SAP S/4HANA remains the trusted System of Record for some of the enterprise's mo
 HANA-X Copilot is the **Enterprise Intent Layer for SAP S/4HANA**. A user states the outcome they need in natural language. The Copilot interprets the request, resolves missing or ambiguous information, retrieves authorized context, presents an explainable plan, applies policy and approval controls, and invokes registered SAP tools through released interfaces. SAP remains the System of Record. HANA-X becomes the System of Intent.
 
 > **HANA-X Copilot converts business intent into authorized, explainable, and auditable SAP outcomes.**
+
+![ICE-FIG-010 — Enterprise Intent Layer executive overview](../../../../10_Visual_and_Brand_Assets/06_Architecture_Figures/ICE-FIG-010_Enterprise-Intent-Layer-Executive-Overview/Source/ICE-FIG-010_Enterprise-Intent-Layer-Executive-Overview_v0.1.svg)
+
+*Figure ICE-FIG-010. Executive view of the governed path from business intent to an authorized and auditable SAP S/4HANA outcome. Status: IN-REVIEW.*
 
 ### The business value
 
@@ -93,6 +100,10 @@ Intent
 ```
 
 The pilot will establish a baseline and measure whether the Copilot reduces task duration, clarification effort, incomplete requests, manual handoffs, and exception-resolution time while preserving approval compliance and audit completeness. These are value hypotheses to be tested, not pre-declared results.
+
+![ICE-FIG-011 — Procurement proof of value executive overview](../../../../10_Visual_and_Brand_Assets/06_Architecture_Figures/ICE-FIG-011_Procurement-Proof-of-Value-Executive-Overview/Source/ICE-FIG-011_Procurement-Proof-of-Value-Executive-Overview_v0.1.svg)
+
+*Figure ICE-FIG-011. Executive proof-of-value view showing procurement intents, governed context and controls, SAP tool execution, audit evidence, and measures to be established through the pilot. Status: IN-REVIEW.*
 
 ### A platform for enterprise expansion
 

@@ -51,6 +51,10 @@
 00_Governance/07_Templates/README.md
 00_Governance/07_Templates/Review-Template.md
 00_Governance/07_Templates/Source-Summary-Template.md
+00_Governance/08_Publication_Blueprint/ICE-GOV-007_Project-ICE-Publication-Roadmap/ICE-GOV-007_Project-ICE-Publication-Roadmap_v1.0_IN-REVIEW_2026-07-16.md
+00_Governance/08_Publication_Blueprint/ICE-GOV-007_Project-ICE-Publication-Roadmap/README.md
+00_Governance/08_Publication_Blueprint/ICE-GOV-007_Project-ICE-Publication-Roadmap/Reviews/ICE-GOV-007_Intake-Review.md
+00_Governance/08_Publication_Blueprint/ICE-GOV-007_Project-ICE-Publication-Roadmap/artifact-manifest.yaml
 00_Governance/09_Repository_Security/README.md
 00_Governance/09_Repository_Security/Repository-Visibility-Remediation.md
 00_Governance/09_Repository_Security/Restricted-Source-Migration-Manifest.csv
@@ -449,4 +453,5 @@ PROJECT_MANIFEST.yaml
 PUBLICATION_GUIDE.md
 README.md
 REPOSITORY_INVENTORY.txt
+ROADMAP.md
 SECURITY.md

@@ -1,0 +1,42 @@
+artifact_id: ICE-GOV-007
+title: Project ICE Publication Roadmap
+type: Governance and publication plan
+version: '1.0'
+status: IN-REVIEW
+owner: Project ICE Publication Office
+created: 2026-07-16
+canonical_path: 00_Governance/08_Publication_Blueprint/ICE-GOV-007_Project-ICE-Publication-Roadmap/ICE-GOV-007_Project-ICE-Publication-Roadmap_v1.0_IN-REVIEW_2026-07-16.md
+summary_path: ROADMAP.md
+related_artifacts:
+  - ICE-GOV-002
+  - ICE-GOV-006
+  - ICE-FM-002
+  - ICE-BIZ-001
+  - ICE-ARCH-001
+  - ICE-ARCH-002
+milestones:
+  content_complete_candidate: 2026-08-19
+  approved_publication_target: 2026-10-08
+release_sequence:
+  - flagship technical publication
+  - executive briefing deck
+  - sales enablement package
+  - partner implementation guide
+required_reviews:
+  - editorial
+  - technical architecture
+  - SAP integration
+  - security
+  - source and citation
+  - claims and legal
+  - visual and accessibility
+  - executive
+publication_authorization:
+  repository_visibility: public
+  status: authorized for governed repository use
+quality_controls:
+  two_track_plan: true
+  figure_budget_core: 12-18
+  figure_budget_total: 20-25
+  direct_push_to_main_prohibited: true
+  release_artifacts_immutable: true

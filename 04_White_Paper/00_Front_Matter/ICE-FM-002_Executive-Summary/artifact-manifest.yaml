@@ -22,6 +22,15 @@ related_artifacts:
   - ICE-GOV-006
   - ICE-GOV-007
 governing_addendum: ICE-GOV-002-ADD-001
+figures:
+  - figure_id: ICE-FIG-010
+    title: Enterprise Intent Layer Executive Overview
+    status: IN-REVIEW
+    path: 10_Visual_and_Brand_Assets/06_Architecture_Figures/ICE-FIG-010_Enterprise-Intent-Layer-Executive-Overview/Source/ICE-FIG-010_Enterprise-Intent-Layer-Executive-Overview_v0.1.svg
+  - figure_id: ICE-FIG-011
+    title: Procurement Proof of Value Executive Overview
+    status: IN-REVIEW
+    path: 10_Visual_and_Brand_Assets/06_Architecture_Figures/ICE-FIG-011_Procurement-Proof-of-Value-Executive-Overview/Source/ICE-FIG-011_Procurement-Proof-of-Value-Executive-Overview_v0.1.svg
 structure:
   executive_decision_brief_words: 300-500
   supporting_summary_words: 800-1200

@@ -14,9 +14,7 @@ repository:
   canonical_url: https://github.com/hanax-ai/Project-ICE-HANA-X-Copilot
   default_branch: main
   working_branch: working
-  allowed_branches:
-    - main
-    - working
+  allowed_branches: [main, working]
   branch_policy:
     additional_branches_allowed: false
     merge_direction: working-to-main
@@ -42,7 +40,7 @@ publication:
     - enterprise architects
     - implementation teams
   flagship_use_case: procurement
-  governance_readiness: ready-for-executive-summary-draft
+  governance_readiness: executive-summary-draft-created
   roadmap:
     summary_path: ROADMAP.md
     artifact_id: ICE-GOV-007
@@ -56,6 +54,12 @@ publication:
     version: '1.0'
     status: IN-REVIEW
     path: 00_Governance/02_Master_Authoring_Guide/ICE-GOV-002_Master-Authoring-Guide_v1.0_IN-REVIEW_2026-07-16.md
+    addenda:
+      - addendum_id: ICE-GOV-002-ADD-001
+        title: Executive Summary Authoring Standard
+        version: '0.1'
+        status: IN-REVIEW
+        path: 00_Governance/02_Master_Authoring_Guide/Addenda/ICE-GOV-002-ADD-001_Executive-Summary-Authoring-Standard_v0.1_IN-REVIEW_2026-07-16.md
   detailed_table_of_contents:
     artifact_id: ICE-GOV-006
     version: '1.0'
@@ -70,8 +74,11 @@ publication:
       current_release_package: 12_Releases/Founder-Letter/v1.0.1
   executive_summary:
     artifact_id: ICE-FM-002
+    version: '0.1'
     status: DRAFT
     next_active_milestone: true
+    canonical_path: 04_White_Paper/00_Front_Matter/ICE-FM-002_Executive-Summary/02_Drafts/ICE-FM-002_Executive-Summary_v0.1_DRAFT_2026-07-16.md
+    structure: executive-decision-brief-plus-supporting-summary
     primary_inputs:
       - ICE-FM-001
       - ICE-BIZ-001
@@ -79,8 +86,10 @@ publication:
       - ICE-ARCH-002
       - ICE-SRC-003
       - ICE-SRC-005
+      - ICE-SRC-012
     governing_artifacts:
       - ICE-GOV-002
+      - ICE-GOV-002-ADD-001
       - ICE-GOV-006
       - ICE-GOV-007
   intended_outputs:
@@ -112,6 +121,7 @@ source_register:
     - ICE-SRC-009
     - ICE-SRC-010
     - ICE-SRC-011
+    - ICE-SRC-012
 
 controls:
   source_authority_order:
